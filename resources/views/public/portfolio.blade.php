@@ -1,10 +1,10 @@
 @extends('layouts.public')
 
-@section('title', 'Jasa Pembuatan Website Murah Berkualitas - Wipin')
+@section('title', 'Portfolio Website dan Desain Wipin')
 
-@section('meta_description', 'Jasa pembuatan website murah berkualitas dengan profesionalitas developer mampu memenuhi keinginan atau kebutuhan website untuk bisnis maupun personal')
+@section('meta_description', 'Anda dapat melihat berbagai proyek yang telah kami selesaikan dari berbagai industri. Wipin bangga dengan hasil setiap proyek yang membantu kebutuhan client, dan berkomitmen untuk memberikan hasil terbaik yang sesuai dengan kebutuhan dan visi anda')
 
-@section('meta_keywords', 'wipin, jasa pembuatan website,jasa pembuatan website murah,website untuk bisnis')
+@section('meta_keywords', 'wipin, portfolio website, portfolio wipin')
 
 @section('meta_author', 'Apin')
 
@@ -14,21 +14,21 @@
 
 @section('meta_og_locale', 'id_ID')
 
-@section('meta_og_title', 'Jasa Pembuatan Website Murah Berkualitas - Wipin')
+@section('meta_og_title', 'Portfolio Website dan Desain Wipin')
 
 @section('meta_og_site_name', 'Wipin')
 
 @section('meta_og_url', 'https://wipinweb.com/jasa-pembuatan-website')
 
-@section('meta_og_description', 'Jasa pembuatan website murah berkualitas dengan profesionalitas developer mampu memenuhi keinginan atau kebutuhan website untuk bisnis maupun personal')
+@section('meta_og_description', 'Anda dapat melihat berbagai proyek yang telah kami selesaikan dari berbagai industri. Wipin bangga dengan hasil setiap proyek yang membantu kebutuhan client, dan berkomitmen untuk memberikan hasil terbaik yang sesuai dengan kebutuhan dan visi anda')
 
 @section('meta_twitter_card', 'summary')
 
 @section('meta_twitter_site', '@WipinTeknologi')
 
-@section('meta_twitter_title', 'Jasa Pembuatan Website Murah Berkualitas - Wipin')
+@section('meta_twitter_title', 'Portfolio Website dan Desain Wipin')
 
-@section('meta_twitter_description', 'Jasa pembuatan website murah berkualitas dengan profesionalitas developer mampu memenuhi keinginan atau kebutuhan website untuk bisnis maupun personal')
+@section('meta_twitter_description', 'Anda dapat melihat berbagai proyek yang telah kami selesaikan dari berbagai industri. Wipin bangga dengan hasil setiap proyek yang membantu kebutuhan client, dan berkomitmen untuk memberikan hasil terbaik yang sesuai dengan kebutuhan dan visi anda')
 
 @section('meta_twitter_image', asset('assets/images/jasa-pembuatan-web-dan-joki-tugas-it-murah-wipin.png'))
 
@@ -49,10 +49,20 @@
       width: 80%;
       margin: 30px 0px;
     }
+    .preview-link{
+      color: #ffa24d;
+      text-decoration: none;
+      font-weight: bold;
+    }
     #whyUs .card-item {
     margin: 10px 10px;
     width: 20rem !important;
     max-width: 100%;
+    }
+    #whyUs img{
+      border-radius: 8px;
+      margin-bottom: 20px !important;
+      margin-top: 10px;
     }
     @media (max-width: 768px) {
       #whyUs .card-item {
@@ -73,13 +83,12 @@
         <div class="col-12 col-lg-6">
           <div class="col-12 main-header pt-2 text-center text-lg-start">
             <h1 class="title">
-              Jasa
-              <span class="gradient">Pembuatan Website</span> Murah Berkualitas
+              <span class="gradient">Portfolio</span> Website dan Desain Wipin
             </h1>
             <p class="mt-4 mb-5">
-              Jasa pembuatan website murah berkualitas dengan profesionalitas developer mampu memenuhi keinginan atau kebutuhan website untuk bisnis maupun personal
+              Anda dapat melihat berbagai proyek yang telah kami selesaikan dari berbagai industri. Wipin bangga dengan hasil setiap proyek yang membantu kebutuhan client, dan berkomitmen untuk memberikan hasil terbaik yang sesuai dengan kebutuhan dan visi anda.
             </p>
-            <a href="#pricelist" class="btn-main">Gunakan Jasa</a>
+            <a href="#projectClient" class="btn-main">Lihat Portfolio</a>
           </div>
           <div class="col-12 text-center text-lg-start">
             <div class="d-flex">
@@ -102,218 +111,131 @@
   </section>
   <!-- end header -->
 
-<section id="whyUs">
+  <!-- start body -->
+  <section id="whyUs">
+    <div class="container" id="projectClient">
+      <img src="{{asset('assets/images/backgroundDesain.png')}}" class="backgroundDesain h-auto" width="600" height="600"
+        alt="layanan desain wipin" />
+      <div class="row">
+        <div class="col-12 text-center" data-aos="fade-up">
+          <p class="title-main title mb-0">Proyek Terbaru</p>
+          <h2 class="mt-1">
+            Tiga Website yang Baru Saja Kami Selesaikan  
+          </h2>
+        </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="card-item col-12 col-md-4 mt-4 pb-4 section-dark-color1" data-aos="fade-up">
+              <a href="https://catuinterglobal.com" class="preview-link" target="_blank">
+                <img src="{{asset('assets/portfolio/catu-inter-global.png')}}" alt="portfolio 1 wipin" class="img-fluid mb-2">
+                Lihat Hasil &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="card-item col-12 col-md-4 mt-4 pb-4 section-dark-color1" data-aos="fade-up">
+              <a href="https://gemilangindokarya.com" class="preview-link" target="_blank">
+            <img src="{{asset('assets/portfolio/gemilang-indo-karya.png')}}" alt="portfolio 2 wipin" class="img-fluid mb-2">
+                Lihat Hasil &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="card-item col-12 col-md-4 mt-4 pb-4 section-dark-color1" data-aos="fade-up">
+             <a href="https://indonesiamedicalcenter.com" class="preview-link" target="_blank">
+            <img src="{{asset('assets/portfolio/indonesia-medical-center.png')}}" alt="portfolio 3 wipin" class="img-fluid mb-2">
+            Lihat Hasil &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="whyUs">
     <div class="container">
       <img src="{{asset('assets/images/backgroundDesain.png')}}" class="backgroundDesain h-auto" width="600" height="600"
         alt="layanan desain wipin" />
       <div class="row">
         <div class="col-12 text-center" data-aos="fade-up">
-          <p class="title-main title mb-0">Benefit Wipin</p>
+          <p class="title-main title mb-0">Portfolio Wipin</p>
           <h2 class="mt-1">
-            Mengapa Harus Mengunakan<br />Jasa Pembuatan Website di Wipin?
-          </h2>
+            Beberapa Proyek dari Ratusan Website yang Telah Wipin <br> Kerjakan di Berbagai Industri.
+        </h2>
         </div>
         </div>
         <div class="row justify-content-around">
           <div class="card-item col-12 col-md-4 mt-4 section-dark-color1" data-aos="fade-up">
-            <h3>Gratis Konsultasi</h3>
+            <h3>Web Bisnis Mobil</h3>
+            <img src="{{asset('assets/portfolio/website-bisnis-kios-toyota.png')}}" alt="Web Bisnis Mobil" class="img-fluid mb-2">
             <p>
-              Jika anda masih bingung tidak perlu sungkan untuk konsultasi dengan kami mengenai
-              project anda untuk mencapai tujuan yang terbaik
-            </p>
+              Web bisnis mobil toyota dengan penerapan SEO Friendly yang mampu menaikan penjualan.
+          </p>
           </div>
           <div class="card-item col-12 col-md-4 mt-4 section-dark-color1" data-aos="fade-up">
-            <h3>Harga Bersahabat</h3>
+            <h3>Web Artikel Travel</h3>
+            <img src="{{asset('assets/portfolio/website-artikel-travel.png')}}" alt="Web Artikel Travel" class="img-fluid mb-2">
             <p>
-              Tidak perlu khawatir soal harga anda bisa negosiasi dahulu dan
-              anda bisa membayar 50% diawal jika belom memiliki cukup anggaran
-            </p>
+              Website traveling yang menarik customer melalui artikel tentang destinasi dan tips perjalanan.
+          </p>
           </div>
           <div class="card-item col-12 col-md-4 mt-4 section-dark-color1" data-aos="fade-up">
-            <h3>Terpercaya</h3>
-            <p>
-              Wipin telah mendapat ratusan review bintang 5/5 di Google Bisnis
-              dan ratusan portfolio yang dapat anda lihat.
-            </p>
+            <h3>Web Landing Page</h3>
+            <img src="{{asset('assets/portfolio/website-landing-page-jasa-sedot-wc.png')}}" alt="Web Landing Page" class="img-fluid mb-2">
+          <p>
+              Halaman informasi bisnis dengan 1 halaman yang diringkas untuk menonjolkan produk atau layanan.
+          </p>
           </div>
           <div class="card-item col-12 col-md-4 mt-4 section-dark-color1" data-aos="fade-up">
-            <h3>Web Lebih Cepat</h3>
+            <h3>Web Produk</h3>
+            <img src="{{asset('assets/portfolio/web-produk-neo-furniture.png')}}" alt="Web Produk Furniture" class="img-fluid mb-2">
             <p>
-              Loading website yang baik tidak lebih dari 2 detik, wipin mampu mengoptimalkan performa website
-            </p>
+              Platform penjualan untuk menjelajahi produk furniture dengan sistem order melalui WhatsApp.
+          </p>
           </div>
           <div class="card-item col-12 col-md-4 mt-4 section-dark-color1" data-aos="fade-up">
-            <h3>Gratis Domain</h3>
-            <p>
-              Anda bisa request nama domain dan tidak perlu lebih dari 100k hanya untuk membeli domain
-            </p>
+            <h3>Web Personal</h3>
+            <img src="{{asset('assets/portfolio/website-personal-build-by-wipin.png')}}" alt="Web Personal" class="img-fluid mb-2">
+          <p>
+              Website pribadi freelance fullstack developer yang menampilkan portfolio dan keterampilan.
+          </p>
           </div>
           <div class="card-item col-12 col-md-4 mt-4 section-dark-color1" data-aos="fade-up">
-            <h3>Gratis Hosting</h3>
+            <h3>Web Bisnis Property</h3>
+            <img src="{{asset('assets/portfolio/Web-Property-Bisnis.png')}}" alt="Web Bisnis Property" class="img-fluid mb-2">
             <p>
-              Anda tidak perlu mengeluarkan budget lebih dari 500k hanya untuk membeli hosting sendiri, kami memberikan free hosting 
+              Platform untuk informasi properti dijual, dengan tautan WhatsApp untuk menghubungi tim sales.
+          </p>
+          </div>
+          <div class="card-item col-12 col-md-4 mt-4 section-dark-color1" data-aos="fade-up">
+            <h3>Web Sekolah</h3>
+            <img src="{{asset('assets/portfolio/web-sekolah.png')}}" alt="Web Sekolah" class="img-fluid mb-2">
+            <p>
+              Website sekolah dengan informasi kurikulum, kegiatan, dan fitur pendaftaran online.
+          </p>
+          </div>
+          <div class="card-item col-12 col-md-4 mt-4 section-dark-color1" data-aos="fade-up">
+            <h3>Web Ecommerce</h3>
+            <img src="{{asset('assets/portfolio/Web-Ecommerce.png')}}" alt="Web Ecommerce" class="img-fluid mb-2">
+            <p>
+              Situs e-commerce yang meningkatkan pengalaman belanja dengan tampilan menarik dan sistem pembayaran otomatis.
+          </p>
+          </div>
+          <div class="card-item col-12 col-md-4 mt-4 section-dark-color1" data-aos="fade-up">
+            <h3>Web Costum</h3>
+            <img src="{{asset('assets/portfolio/webcostum.png')}}" alt="Web Costum" class="img-fluid mb-2">
+            <p>
+              Tingkatkan efisiensi bisnis anda dengan aplikasi berbasis website, mulai dari pengelolaan data, keuangan, manajemen inventori hingga monitoring karyawan.
             </p>
           </div>
       </div>
     </div>
   </section>
 
-    <section id="pricelist" class="section-dark-color">
-    <div class="container">
-      <div class="row">
-        <div class="text-center mb-4">
-          <p class="title-main mb-0 title">Harga Jasa Website</p>
-          <h2 class="my-2">
-            Jasa Pembuatan Website Termurah
-          </h2>
-          <p class="mt-3">
-            Sesuaikan paket harga jasa pembuatan website dibawah ini dengan budget dan kebutuhan anda. <br> Anda juga dapat konsultasi kepada admin wipin secara gratis untuk penawaran dan solusi yang tepat. <a href="https://api.whatsapp.com/send?phone=6285198330157" class="title-main" target="_blank">Konsultasi Sekarang</a>
-            </p>   
-            
-            <p class="mt-3">
-              Paket Small, Medium, Premium dibuat menggunakan teknologi CMS wordpress, dengan masa aktif website minimum 1 tahun.
-            </p>        
-
-        </div>
-      </div>
-      <div class="row justify-content-around">
-        <div class="card-item show-popup section-dark-color1 col-12 col-md-6 col-lg-3" data-aos="fade-up">
-          <h3>Paket Small</h3>
-          <p class="fw-light">Cocok untuk keperluan website pribadi, portfolio, landing page</p>
-          <p class="fw-bold m-0">Harga Paket</p>
-          <p><span>Rp 50.000 </span><small>/Bulan</small></p>
-          <ul class="p-0">
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free 1 Halaman <small class="fw-light">(tambah? 100k perhalaman)</small></li>
-            <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="centang"> Free Iklan Google Ads</li>
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free Revisi 5x</li>
-                        <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Optimasi Speed <small class="fw-light">(high perform)</small></li>
-            <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="silang"> Free Desain Mockup</li>
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free Domain <small class="fw-light">(.com, .sch.id, .ac.id, .web.id, .shop)</small></li>
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free Hosting <small class="fw-light">(tanpa akses login cpanel)</small></li>
-            <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="silang"> Email Bisnis <small class="fw-light">(nama@domain.com)</small></li>
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Responsive Web <small class="fw-light">(tampilan sudah menyesuaikan device)</small></li>
-            <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="centang"> Fitur Blog <small class="fw-light">(Free 4 Artikel)</small></li>
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Fitur Integrasi <small class="fw-light">(whatsapp, google maps)</small></li>
-            <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="centang"> SEO Friendly</li>
-            <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="silang"> Google Analytics <small class="fw-light">(analisa visitor web)</small></li>
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Garansi Selamanya</li>
-          </ul>
-          <p class="fw-light mt-4 desc">Masa aktif minimum 1 tahun, perpanjang hanya 400k pertahun</p>
-          <a href="
-          https://api.whatsapp.com/send?phone=6285198330157&text=Halo%20Admin%20Saya%20Mau%20Order%20Pembuatan%20Web%20Paket%20Small
-        " class="btn-main btn-bottom" target="_blank">Cek Harga/Tahun</a>
-        </div>
-
-        <div class="card-item show-popup section-dark-color1 col-12 col-md-6 col-lg-3" data-aos="fade-up">
-          <h3>Paket Medium</h3>
-          <p class="fw-light">Cocok untuk keperluan bisnis menengah seperti web promosi, web umkm</p>
-          <p class="fw-bold m-0 text-warning">Diskon 20%</p>
-          <p class="line-through mb-0">Rp 100.000 <small>/Bulan</small></p>
-          <p><span>Rp 80.000 </span><small>/Bulan</small></p>
-          <ul class="p-0">
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free 4 Halaman <small class="fw-light">(tambah? 100k perhalaman)</small></li>
-            <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="centang"> Free Iklan Google Ads</li>
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free Revisi 10x</li>
-                         <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Optimasi Speed <small class="fw-light blink text-warning">(2x lebih cepat)</small></li>
-            <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="centang"> Free Desain Mockup</li>
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free Domain <small class="fw-light">(.com, .sch.id, .ac.id, .web.id, .shop)</small></li>
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free Hosting <small class="fw-light">(tanpa akses login cpanel)</small></li>
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="silang"> Free 1 Email Bisnis <small class="fw-light blink text-warning">(nama@domain.com)</small></li>
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Responsive Web <small class="fw-light">(tampilan sudah menyesuaikan device)</small></li>
-            <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="centang"> Fitur Blog <small class="fw-light">(Free 4 Artikel)</small></li>
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Fitur Integrasi <small class="fw-light">(whatsapp, google maps, form email)</small></li>
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> SEO Friendly</li>
-            <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="silang"> Google Analytics <small class="fw-light">(analisa visitor web)</small></li>
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Garansi Selamanya</li>
-          </ul>
-          <p class="fw-light mt-4 desc">Masa aktif minimum 1 tahun, perpanjang hanya 400k pertahun</p>
-          <a href="
-          https://api.whatsapp.com/send?phone=6285198330157&text=Halo%20Admin%20Saya%20Mau%20Order%20Pembuatan%20Web%20Paket%20Medium
-        " class="btn-main btn-bottom" target="_blank">Cek Harga/Tahun</a>
-        </div>
-
-        <div class="card-item show-popup section-dark-color1 col-12 col-md-6 col-lg-3"  data-aos="fade-up">
-          <h3>Paket Premium</h3>
-          <p class="fw-light">Cocok untuk keperluan bisnis profesional,
-            e-commerce, company profile, portal berita</p>
-            <p class="fw-bold m-0 text-warning">Diskon 32% 
-              <small class="blink text-warning">( TERLARIS )</small>
-            </p>
-            <p class="line-through mb-0">Rp 220.000 <small>/Bulan</small></p>
-            <p><span>Rp 150.000 </span><small>/Bulan</small></p>
-            <ul class="p-0">
-              <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free 8 Halaman <small class="fw-light">(tambah? 100k perhalaman)</small></li>
-              <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free Iklan Google Ads</li>
-              <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free Revisi 99x</li>
-                           <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Optimasi Speed <small class="fw-light blink text-warning">(10x lebih cepat)</small></li>
-              <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free Desain Mockup</li>
-              <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free Domain <small class="fw-light">(.com, .sch.id, .ac.id, .web.id, .shop)</small></li>
-              <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free Hosting <small class="fw-light blink text-warning">(akses login cpanel)</small></li>
-              <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free 5 Email Bisnis <small class="fw-light blink text-warning">(nama@domain.com)</small></li>
-              <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Responsive Web <small class="fw-light">(tampilan sudah menyesuaikan device)</small></li>
-              <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Fitur Blog <small class="fw-light blink text-warning">(Free 4 Artikel)</small></li>
-              <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> SEO Friendly</li>
-              <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Fitur Integrasi <small class="fw-light">(whatsapp, google maps, form email, translate bahasa)</small></li>
-              <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Google Analytics <small class="fw-light">(analisa visitor web)</small></li>
-              <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Garansi Selamanya</li>
-            </ul>
-            <p class="fw-light mt-4 desc">Masa aktif minimum 1 tahun, perpanjang hanya 400k pertahun</p>
-            <a href="
-            https://api.whatsapp.com/send?phone=6285198330157&text=Halo%20Admin%20Saya%20Mau%20Order%20Pembuatan%20Web%20Paket%20Premium
-          " class="btn-main btn-bottom" target="_blank">Cek Harga/Tahun</a>
-          </div>
-     
-          <div class="card-item show-popup section-dark-color1 col-12 col-md-6 col-lg-3"  data-aos="fade-up">
-            <h3>Paket Business</h3>
-            <p class="fw-light">Cocok untuk website dengan fitur tingkat lanjut dengan menu website lebih banyak</p>
-              <p class="fw-bold m-0">Harga Paket</p>
-              <p><span>Rp 250.000 </span><small>/Bulan</small></p>
-              <ul class="p-0">
-                <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free 14 Halaman <small class="fw-light">(tambah? 100k perhalaman)</small></li>
-                <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free Iklan Google Ads</li>
-                <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free Revisi 99x</li>
-                             <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Optimasi Speed <small class="fw-light blink text-warning">(10x lebih cepat)</small></li>
-                <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free Desain Mockup</li>
-                <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free Domain <small class="fw-light">(.com, .sch.id, .ac.id, .web.id, .shop)</small></li>
-                <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free Hosting <small class="fw-light blink text-warning">(akses login cpanel)</small></li>
-                <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Free 5 Email Bisnis <small class="fw-light blink text-warning">(nama@domain.com)</small></li>
-                <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Responsive Web <small class="fw-light">(tampilan sudah menyesuaikan device)</small></li>
-                <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Fitur Blog <small class="fw-light blink text-warning">(Free 8 Artikel)</small></li>
-                <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> SEO Friendly</li>
-                <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Fitur Integrasi <small class="fw-light">(whatsapp, google maps, form email, translate bahasa, live chat)</small></li>
-                <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Google Analytics <small class="fw-light">(analisa visitor web)</small></li>
-                <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang"> Garansi Selamanya</li>
-              </ul>
-              <p class="fw-light mt-4 desc">Masa aktif minimum 1 tahun, perpanjang hanya 400k pertahun</p>
-              <a href="
-              https://api.whatsapp.com/send?phone=6285198330157&text=Halo%20Admin%20Saya%20Mau%20Order%20Pembuatan%20Web%20Paket%20Business
-            " class="btn-main btn-bottom" target="_blank">Cek Harga/Tahun</a>
-            </div>    
-      </div>
-        <p class="mt-3 text-center">
-          Jika Terdapat beberapa kata yang tidak anda pahami
-          <a href="#faq" class="title-main">FAQ</a> Dapat membantu anda
-      </p>  
-    </div>
-  </section>
 
   <section id="portfolio">
     <div class="container">
       <img src="{{asset('assets/images/backgroundDesain.png')}}" class="backgroundDesain h-auto" width="600" height="600"
         alt="portfolio wipin" />
-       <div class="row mb-5">
-        <div class="col-md-8 col-12">
-          <div class="d-flex flex-column align-items-center align-items-md-start text-center text-md-left">
-            <p class="title-main mb-0 title">Portfolio</p>
-            <h2 class="mt-1">
-              Hasil Proyek Wipin dari Berbagai Industri
-            </h2>
-          </div>
-        </div>
-        <div class="col-md-4 col-12">
-          <div class="justify-content-md-end justify-content-center d-flex">
-            <a href="/portfolio" class="btn-main mt-3">Lihat Semua</a>
-         </div>
+      <div class="row">
+        <div class="text-center mb-4">
+          <p class="title-main title mb-0">Portfolio Lainnya</p>
+          <h2 class="mt-1">
+            Hasil Berbagai Website dan Desain Wipin
+          </h2>
         </div>
       </div>
     </div>
@@ -342,49 +264,24 @@
     </div>
   </section>
 
-  <section id="penghargaan">
+  <section id="client-wipin">
     <div class="container">
-      <img src="{{asset('assets/images/backgroundDesain.png')}}" class="backgroundDesain h-auto" width="600" height="600"
-        alt="penghargaan background desain" />
       <div class="row">
         <div class="text-center mb-4">
-          <p class="title-main title mb-0">3 Penghargaan Terbaru</p>
+          <p class="title-main title mb-0">Klien Wipin</p>
           <h2 class="mt-1">
-            Sertifikat yang Berhasil Diraih Wipin<br />
-            Pada Tingkat Nasional
+            Berbagai Industri Telah Menaruh Kepercayaan kepada Wipin
           </h2>
         </div>
       </div>
-      <div class="row justify-content-around">
-        <div class="col-md-4 card-item section-dark-color1 col-12" type="button" data-aos="fade-up"
-          data-bs-toggle="modal" data-bs-target="#juara1">
-          <img src="{{asset('assets/icons/medal1.svg')}}" width="100" height="50" alt="penghargaan juara 1 web design wipin" />
-          <h3 class="my-3">Juara 1 Desain Web</h3>
-          <p>
-            Diadakan oleh universitas teknologi yogyakarta dengan tema lomba "Ragam Nusantara" pada tanggal 5 Juli..
-          </p>
-        </div>
-
-        <div class="col-md-4 card-item section-dark-color1 col-12" type="button" data-aos="fade-up"
-          data-bs-toggle="modal" data-bs-target="#juara2">
-          <img src="{{asset('assets/icons/medal3.svg')}}" width="100" height="50" alt="penghargaan juara desain ui ux wipin" />
-          <h3 class="my-3">Juara 2 Desain UI UX</h3>
-          <p>
-            Diadakan oleh lumintulogic yaitu perusahaan teknologi informasi yang ada pada yogyakarta dengan..
-          </p>
-        </div>
-
-        <div class="col-md-4 card-item section-dark-color1 col-12" type="button" data-aos="fade-up"
-          data-bs-toggle="modal" data-bs-target="#juara4">
-          <img src="{{asset('assets/icons/medal2.svg')}}" width="100" height="50" alt="penghargaan desain web wipin" />
-          <h3 class="my-3">Juara Favorit Web</h3>
-          <p>
-            Diadakan oleh Politeknik Negeri Bali dalam kegiatan INTECH FEST (information and Technology..
-          </p>
+      <div class="row">
+        <div class="justify-content-center d-flex mb-5">
+          <img src="{{asset('assets/portfolio/client-wipin.png')}}" class="w-100" alt="client wipin">
         </div>
       </div>
     </div>
   </section>
+
 
   <section id="testimoni">
     <div class="container section-dark-color">
@@ -712,7 +609,8 @@
       </div>
     </div>
   </section>
-<div class="modal fade" id="juara1" tabindex="-1" aria-labelledby="juara1" aria-hidden="true">
+
+  <div class="modal fade" id="juara1" tabindex="-1" aria-labelledby="juara1" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content section-dark-color1">
         <div class="modal-header">
@@ -761,35 +659,5 @@
 @endsection
 
 @push('script')
-<script>
-    $('.show-popup a').click(function(e) {
-  e.preventDefault();
-
-  // Ambil nama paket dan harga per bulan
-  var paketName = $(this).parent().find('h3').text();
-  var priceElement = $(this).parent().find('span');
-  var priceString = priceElement.text().replace('.', '').replace('Rp ', '');
-  var pricePerMonth = parseFloat(priceString);
-
-  // Hitung total biaya per tahun
-  var totalCost = pricePerMonth * 12;
-
-  Swal.fire({
-    html: `<strong>${paketName}</strong><br>
-           Harga per bulan: Rp ${pricePerMonth.toLocaleString('id-ID')}<br>
-           Total biaya (12 bulan): Rp ${totalCost.toLocaleString('id-ID')}`,
-    icon: 'success',
-    showCancelButton: true,
-    confirmButtonColor: '#3085d6',
-    cancelButtonColor: '#d33',
-    confirmButtonText: 'Lanjutkan ke WhatsApp',
-    cancelButtonText: 'Batal'
-      }).then((result) => {
-        if (result.isConfirmed) {
-          // Lanjutkan ke link WhatsApp jika dikonfirmasi
-          window.location.href = $(this).attr('href');
-        }
-      });
-    });
-  </script>
+<!-- Tambahkan JavaScript jika diperlukan -->
 @endpush

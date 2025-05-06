@@ -85,11 +85,11 @@
   <div class="language-switcher">
     @if ($lang === 'en')
         <a href="{{ route('language.switch', ['lang' => 'id', 'page' => $page ?? 'home']) }}" class="lang-btn" title="Bahasa Indonesia">
-            <img src="{{ asset('images/indonesia-flag.png') }}" alt="ID" width="40" height="40">
+            <span>🇮🇩 Indonesia</span>
         </a>
     @else
         <a href="{{ route('language.switch', ['lang' => 'en', 'page' => $page ?? 'home']) }}" class="lang-btn" title="English">
-            <img src="{{ asset('images/english-flag.png') }}" alt="EN" width="40" height="40">
+            <span>🇬🇧 English</span> 
         </a>
     @endif
   </div>

@@ -8,5 +8,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <script src="{{asset('script.js')}}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5BM2RM" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
