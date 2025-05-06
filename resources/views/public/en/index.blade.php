@@ -1,17 +1,17 @@
 @extends('layouts.public')
  
-@section('title', 'Layanan Jasa Desain dan Website - Wipin')
-@section('meta_description', 'Jasa desain UI/UX, pembuatan website, dan desain grafis terbaik untuk kebutuhan bisnis Anda.')
-@section('meta_keywords', 'layanan desain, jasa pembuatan website, desain logo, branding')
-@section('meta_author', 'Tim Wipin')
+@section('title', 'Affordable Website and Design Services - Wipin')
+@section('meta_description', 'Professional UI/UX design, website development, and graphic design services tailored to your business needs.')
+@section('meta_keywords', 'design services, website development, logo design, branding, UI/UX design')
+@section('meta_author', 'Wipin Team')
 
-@section('meta_og_title', 'Layanan Jasa Desain dan Website')
-@section('meta_og_description', 'Dapatkan layanan desain terbaik dari tim profesional Wipin.')
+@section('meta_og_title', 'Design and Website Services')
+@section('meta_og_description', 'Get professional design services from the expert Wipin team.')
 @section('meta_url', url('/services'))
 @section('meta_image', asset('assets/images/services-banner.png'))
 
-@section('meta_twitter_title', 'Layanan Jasa Desain - Wipin')
-@section('meta_twitter_description', 'Solusi desain dan website terbaik untuk bisnis Anda.')
+@section('meta_twitter_title', 'Design Services - Wipin')
+@section('meta_twitter_description', 'The best design and website solutions for your business.')
 @section('meta_twitter_image', asset('assets/images/services-banner.png'))
 
 @push('style')
@@ -27,30 +27,30 @@
         <div class="col-12 col-lg-6">
           <div class="col-12 main-header pt-2 text-center text-lg-start">
             <h1 class="title">
-              Penyedia Jasa Website dan Desain
-              <span class="gradient"> Murah Berkualitas</span>
+              Affordable Website and Design
+              <span class="gradient">Services</span>
             </h1>
             <p class="mt-4 mb-5">
-              Penyedia jasa pembuatan website, jasa desain ui ux dan jasa desain grafis murah berkualitas mampu memenuhi kebutuhan untuk bisnis maupun personal
+              Professional website development, UI/UX design, and graphic design services at affordable prices, meeting both business and personal needs
             </p>
-            <a href="#pricelist" class="btn-main">Gunakan Jasa</a>
+            <a href="#pricelist" class="btn-main">Use Our Services</a>
           </div>
           <div class="col-12 text-center text-lg-start">
             <div class="d-flex">
               <div class="col-6">
                 <h2 class="number title">389</h2>
-                <p>Our<br />Customer</p>
+                <p>Our<br />Customers</p>
               </div>
               <div class="col-6">
                 <h2 class="number title">413</h2>
-                <p>Project<br />Completed</p>
+                <p>Projects<br />Completed</p>
               </div>
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-6 p-0">
-          <img src="assets/images/jasa-website-dan-desain.png')}}" width="811" height="749" class="headerImage"
-            alt="wipin penyedia jasa website, desain ui ux dan desain grafis" />
+          <img src="{{ asset('assets/images/jasa-website-dan-desain.png') }}" width="811" height="749" class="headerImage"
+            alt="Wipin - website development, UI/UX design and graphic design services" />
         </div>
       </div>
     </div>
@@ -62,43 +62,42 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-12 mt-4 text-center text-md-start" data-aos="fade-up-right">
-          <p class="title-main mb-0 title">Layanan Wipin</p>
+          <p class="title-main mb-0 title">Wipin Services</p>
           <h2 class="mt-1">
-            3 Layanan Wipin Siap <br>Mewujudkan Impian Anda
+            3 Wipin Services Ready<br>To Fulfill Your Vision
           </h2>
           <img src="{{asset('assets/images/services.png')}}" width="500" height="500"
-            class="w-100 pt-4 pt-md-4 h-auto servicesImage text-center" alt="layanan wipin" />
+            class="w-100 pt-4 pt-md-4 h-auto servicesImage text-center" alt="wipin services" />
           <img src="{{asset('assets/images/backgroundDesain.png')}}" class="backgroundDesain1 h-auto w-100"
-            width="600" height="600" alt="layanan desain wipin" />
+            width="600" height="600" alt="wipin design services" />
         </div>
 
         <div class="col-md-6 col-12" data-aos="fade-up-left">
-          <a href="jasa-pembuatan-website">
+          <a href="{{ route('show.en', 'website-development') }}">
           <div class="card-item section-dark-color1">
-            <h3>Pembuatan Website</h3>
+            <h3>Website Development</h3>
             <p>
-              Developer yang berpengalaman membuat berbagai desain web dengan sistem terbaik
+              Experienced developers creating various web designs with the best systems
             </p>
-            <p class="title-main fw-light">Selengkapnya</p>
+            <p class="title-main fw-light">Read More</p>
           </div>
           </a>
-          <a href="jasa-desain-ui-ux">
+          <a href="{{ route('show.en', 'ui-ux-design') }}">
             <div class="card-item section-dark-color1">
-              <h3>Desain UI UX</h3>
+              <h3>UI UX Design</h3>
               <p>
-                Kami berpengalaman membuat desain UI UX berbasis mobile maupun
-                website
+                We have experience creating UI UX designs for both mobile and web platforms
               </p>
-              <p class="title-main fw-light">Selengkapnya</p>
+              <p class="title-main fw-light">Read More</p>
             </div>
           </a>
-          <a href="jasa-desain-grafis">
+          <a href="{{ route('show.en', 'graphic-design') }}">
             <div class="card-item section-dark-color1">
-              <h3>Desain Grafis</h3>
+              <h3>Graphic Design</h3>
               <p>
-                Profesionalitas desainer dalam memberikan pelayanan kualitas desain terbaik
+                Professional designers providing the highest quality design services
               </p>
-              <p class="title-main fw-light">Selengkapnya</p>
+              <p class="title-main fw-light">Read More</p>
             </div>
           </a>
         </div>
@@ -109,40 +108,36 @@
   <section id="whyUs">
     <div class="container">
       <img src="{{asset('assets/images/backgroundDesain.png')}}" class="backgroundDesain h-auto" width="600"
-        height="600" alt="layanan desain wipin" />
+        height="600" alt="wipin design services" />
       <div class="row col-12 m-0 flex-column-reverse flex-md-row">
 
         <div class="col-md-6 col-12" data-aos="fade-up-right">
           <div class="card-item section-dark-color1">
-            <h3>Gratis Konsultasi</h3>
+            <h3>Free Consultation</h3>
             <p>
-              Jika anda masih bingung tidak perlu sungkan untuk konsultasi dengan kami mengenai
-              project anda untuk mencapai tujuan yang terbaik
+              If you're unsure about your project, don't hesitate to consult with us to achieve the best results for your goals
             </p>
           </div>
           <div class="card-item section-dark-color1">
-            <h3>Harga Bersahabat</h3>
+            <h3>Friendly Pricing</h3>
             <p>
-              Tidak perlu khawatir soal harga anda bisa negosiasi dahulu dan
-              anda bisa membayar 50% diawal jika belom memiliki cukup anggaran
+              Don't worry about the price – you can negotiate and pay 50% upfront if you don't have enough budget
             </p>
           </div>
           <div class="card-item section-dark-color1">
-            <h3>Terpercaya</h3>
+            <h3>Trusted</h3>
             <p>
-              Profesionalitas dari para developer dan designer kami membuat
-              dipercaya oleh pelanggan kami sehingga tidak perlu diragukan
-              lagi
+              The professionalism of our developers and designers has earned our customers' trust, so you can rely on us without doubt
             </p>
           </div>
         </div>
         <div class="col-md-6 col-12 mt-4 text-center text-md-start" data-aos="fade-up-left">
-          <p class="title-main mb-0 title">Benefit Wipin</p>
+          <p class="title-main mb-0 title">Wipin Benefits</p>
           <h2 class="mt-1">
-            Mengapa Harus Menggunakan<br />Jasa Buat Web dan Desain di Wipin?
+            Why Choose Wipin for<br />Web Development and Design Services?
           </h2>
           <img src="{{asset('assets/images/whyUs.png')}}" width="500" height="500"
-            class="w-100 h-auto pt-0 pt-md-5 pt-lg-0" alt="keunggulan menggunakan jasa web murah di wipin" />
+            class="w-100 h-auto pt-0 pt-md-5 pt-lg-0" alt="benefits of using wipin's affordable web services" />
 
         </div>
       </div>
@@ -153,49 +148,49 @@
     <div class="container">
       <div class="row">
         <div class="text-center mb-4">
-          <p class="title-main mb-0 title">Harga Jasa</p>
+          <p class="title-main mb-0 title">Service Pricing</p>
           <h2 class="mt-1">
-            3 Layanan Wipin Dengan Berbagai<br>
-            Pilihan Termurah
+            3 Wipin Services With<br>
+            Various Affordable Options
           </h2>
         </div>
       </div>
       <div class="row justify-content-around">
         <div class="card-item section-dark-color1 col-12 col-md-4" data-aos="fade-up">
-          <h3>Pembuatan Website</h3>
-          <p class="fw-bold">Dimulai dari harga</p>
+          <h3>Website Development</h3>
+          <p class="fw-bold">Starting from</p>
           <span>Rp 50,000</span>
           <ul>
-            <li>Free revisi</li>
+            <li>Free revisions</li>
             <li>Free hosting</li>
             <li>Free domain</li>
           </ul>
-          <a href="jasa-pembuatan-website#pricelist" class="btn-main">Lihat Detail</a>
+          <a href="{{ route('show.en', 'website-development') }}#pricelist" class="btn-main">See Details</a>
         </div>
         <div class="card-item  section-dark-color1 col-12 col-md-4" data-aos="fade-up">
-          <h3>Desain UI UX</h3>
-          <p class="fw-bold">Harga per-halaman</p>
-          <p class="mb-0"><span>Rp 30,000</span> | Mobile desain</p>
-          <p class="mb-0"><span>Rp 45,000</span> | Web desain</p>
+          <h3>UI UX Design</h3>
+          <p class="fw-bold">Price per page</p>
+          <p class="mb-0"><span>Rp 30,000</span> | Mobile design</p>
+          <p class="mb-0"><span>Rp 45,000</span> | Web design</p>
           <ul>
-            <li>Request warna desain</li>
+            <li>Custom color schemes</li>
             <li>Free prototype</li>
             <li>Free mockup</li>
           </ul>
-          <a href="jasa-desain-ui-ux#pricelist" class="btn-main">Lihat Detail</a>
+          <a href="{{ route('show.en', 'ui-ux-design') }}#pricelist" class="btn-main">See Details</a>
         </div>
         <div class="card-item  section-dark-color1 col-12 col-md-4" data-aos="fade-up">
-          <h3>Desain Grafis</h3>
-          <p class="fw-bold">Dimulai dari harga</p>
+          <h3>Graphic Design</h3>
+          <p class="fw-bold">Starting from</p>
           <p class="line-through mb-0">Rp 200,000</p>
           <span>Rp 100,000</span>
 
           <ul>
-            <li>Request warna desain</li>
-            <li>High quality desain</li>
+            <li>Custom color schemes</li>
+            <li>High quality design</li>
             <li>Free mockup</li>
           </ul>
-          <a href="jasa-desain-grafis#pricelist" class="btn-main">Lihat Detail</a>
+          <a href="{{ route('show.en', 'graphic-design') }}#pricelist" class="btn-main">See Details</a>
         </div>
       </div>
     </div>
@@ -205,19 +200,19 @@
   <section id="portfolio">
     <div class="container">
       <img src="{{asset('assets/images/backgroundDesain.png')}}" class="backgroundDesain h-auto" width="600"
-        height="600" alt="portfolio wipin" />
+        height="600" alt="wipin portfolio" />
       <div class="row mb-5">
         <div class="col-md-8 col-12">
           <div class="d-flex flex-column align-items-center align-items-md-start text-center text-md-left">
             <p class="title-main mb-0 title">Portfolio</p>
             <h2 class="mt-1">
-              Hasil Proyek Wipin dari Berbagai Industri
+              Wipin Projects From Various Industries
             </h2>
           </div>
         </div>
         <div class="col-md-4 col-12">
           <div class="justify-content-md-end justify-content-center d-flex">
-            <a href="/portfolio" class="btn-main mt-3">Lihat Semua</a>
+            <a href="{{ route('show.en', 'portfolio') }}" class="btn-main mt-3">See All</a>
          </div>
         </div>
       </div>
@@ -226,43 +221,43 @@
       <div class="owl-carousel owl-theme">
         <div class="card-item  section-dark-color1 item">
           <img src="{{asset('assets/portfolio/buku-online-app-wipin.png')}}" width="600" height="350"
-            alt="jasa desain ui ux online book wipin">
+            alt="ui ux design online book app by wipin">
         </div>
         <div class="card-item  section-dark-color1 item">
           <img src="{{asset('assets/portfolio/company-profile-wipin.png')}}" width="600" height="350"
-            alt="jasa pembuatan web company profile wipin">
+            alt="company profile website development by wipin">
         </div>
         <div class="card-item  section-dark-color1 item">
           <img src="{{asset('assets/portfolio/dashboard-design-wipin.png')}}" width="600" height="350"
-            alt="jasa desain ui ux dashboard wipin">
+            alt="ui ux dashboard design by wipin">
         </div>
         <div class="card-item  section-dark-color1 item">
           <img src="{{asset('assets/portfolio/music-design-app-wipin.png')}}" width="600" height="350"
-            alt="jasa desain ui ux music app wipin">
+            alt="ui ux music app design by wipin">
         </div>
         <div class="card-item  section-dark-color1 item">
           <img src="{{asset('assets/portfolio/perpustakaan-website-wipin.png')}}" width="600" height="350"
-            alt="jasa desain website perpustakaan wipin">
+            alt="library website design by wipin">
         </div>
         <div class="card-item  section-dark-color1 item">
           <img src="{{asset('assets/portfolio/kuliner-website-wipin.png')}}" width="600" height="350"
-            alt="jasa desain website kuliner wipin">
+            alt="culinary website design by wipin">
         </div>
         <div class="card-item  section-dark-color1 item">
           <img src="{{asset('assets/portfolio/travel-website-wipin.png')}}" width="600" height="350"
-            alt="jasa pembuatan website travel wipin">
+            alt="travel website development by wipin">
         </div>
         <div class="card-item  section-dark-color1 item">
           <img src="{{asset('assets/portfolio/web-starbuks-wipin.png')}}" width="600" height="350"
-            alt="jasa desain web starbuks wipin">
+            alt="starbucks web design by wipin">
         </div>
         <div class="card-item  section-dark-color1 item">
           <img src="{{asset('assets/portfolio/desain-grafis-game-wipin.png')}}" width="600" height="350"
-            alt="jasa desain grafis game">
+            alt="game graphic design services">
         </div>
         <div class="card-item  section-dark-color1 item">
           <img src="{{asset('assets/portfolio/desain-feed-instagram-wipin.png')}}" width="600" height="350"
-            alt="jasa desain feed instagram wipin">
+            alt="instagram feed design by wipin">
         </div>
       </div>
     </div>
@@ -271,13 +266,13 @@
   <section id="penghargaan">
     <div class="container">
       <img src="{{asset('assets/images/backgroundDesain.png')}}" class="backgroundDesain h-auto" width="600"
-        height="600" alt="penghargaan background desain" />
+        height="600" alt="awards background design" />
       <div class="row">
         <div class="text-center mb-4">
-          <p class="title-main mb-0 title">3 Penghargaan Terbaru</p>
+          <p class="title-main mb-0 title">3 Latest Awards</p>
           <h2 class="mt-1">
-            Sertifikat yang Berhasil Diraih Wipin<br />
-            Pada Tingkat Nasional
+            Certificates Achieved by Wipin<br />
+            at the National Level
           </h2>
         </div>
       </div>
@@ -285,30 +280,30 @@
         <div class="col-md-4 card-item section-dark-color1 col-12" type="button" data-aos="fade-up"
           data-bs-toggle="modal" data-bs-target="#juara1">
           <img src="{{asset('assets/icons/medal1.svg')}}" width="100" height="50"
-            alt="penghargaan juara 1 web design wipin" />
-          <h3 class="my-3">Juara 1 Desain Web</h3>
+            alt="1st place web design award wipin" />
+          <h3 class="my-3">1st Place in Web Design</h3>
           <p>
-            Diadakan oleh universitas teknologi yogyakarta dengan tema lomba "Ragam Nusantara" pada tanggal 5 Juli..
+            Held by Yogyakarta Technology University with the theme "Indonesian Diversity" from July 5...
           </p>
         </div>
 
         <div class="col-md-4 card-item section-dark-color1 col-12" type="button" data-aos="fade-up"
           data-bs-toggle="modal" data-bs-target="#juara2">
           <img src="{{asset('assets/icons/medal3.svg')}}" width="100" height="50"
-            alt="penghargaan juara desain ui ux wipin" />
-          <h3 class="my-3">Juara 2 Desain UI UX</h3>
+            alt="2nd place ui ux design award wipin" />
+          <h3 class="my-3">2nd Place in UI UX Design</h3>
           <p>
-            Diadakan oleh lumintulogic yaitu perusahaan teknologi informasi yang ada pada yogyakarta dengan..
+            Held by Lumintulogic, an information technology company in Yogyakarta with the theme...
           </p>
         </div>
 
         <div class="col-md-4 card-item section-dark-color1 col-12" type="button" data-aos="fade-up"
           data-bs-toggle="modal" data-bs-target="#juara4">
           <img src="{{asset('assets/icons/medal2.svg')}}" width="100" height="50"
-            alt="penghargaan desain web wipin" />
-          <h3 class="my-3">Juara Favorit Web</h3>
+            alt="favorite web design award wipin" />
+          <h3 class="my-3">Favorite Web Award</h3>
           <p>
-            Diadakan oleh Politeknik Negeri Bali dalam kegiatan INTECH FEST (information and Technology..
+            Held by Bali State Polytechnic in the INTECH FEST (Information and Technology...
           </p>
         </div>
       </div>
@@ -319,9 +314,9 @@
     <div class="container section-dark-color">
       <div class="row">
         <div class="text-center text-md-start mb-5">
-          <p class="title-main mb-0 title">Testimoni Google Bisnis</p>
+          <p class="title-main mb-0 title">Google Business Testimonials</p>
           <h2 class="mt-1">
-            Klien Sangat Puas Dengan<br />Hasil Project
+            Clients Are Very Satisfied<br />With Project Results
           </h2>
         </div>
       </div>
@@ -330,100 +325,96 @@
           <div class="row">
             <div class="col-3">
               <img src="{{asset('assets/images/avatar1.svg')}}" width="100" height="100" class="avatar"
-                alt="profile testimoni" />
+                alt="testimonial profile" />
             </div>
             <div class="col-9 pl-2">
               <h3>Aditya</h3>
-              <small>Pengusaha</small>
+              <small>Entrepreneur</small>
             </div>
           </div>
           <div class="row pt-4">
             <p>
-              Ga pernah kecewa pesen desain disini, karena hasilnya selalu di
-              luar ekspektasi bagus parah.
+              I've never been disappointed ordering designs here, because the results always exceed my expectations.
             </p>
             <img src="{{asset('assets/icons/stars.svg')}}" width="300" height="100" class="star"
-              alt="review testimoni wipin" />
+              alt="wipin testimonial review" />
           </div>
         </div>
         <div class="card-item  section-dark-color1 item">
           <div class="row">
             <div class="col-3">
               <img src="{{asset('assets/images/avatar2.svg')}}" width="100" height="100" class="avatar"
-                alt="profile testimoni" />
+                alt="testimonial profile" />
             </div>
             <div class="col-9 pl-2">
               <h3>Daffa Darma</h3>
-              <small>Mahasiswa</small>
+              <small>Student</small>
             </div>
           </div>
           <div class="row pt-4">
             <p>
-              Pusing mikirin tugas coding" membantu banget nih buat nyelesain
-              tugas program saya.
+              Their service really helped me complete my programming assignments when I was stuck with coding problems.
             </p>
             <img src="{{asset('assets/icons/stars.svg')}}" width="300" height="100" class="star"
-              alt="review testimoni wipin" />
+              alt="wipin testimonial review" />
           </div>
         </div>
         <div class="card-item  section-dark-color1 item">
           <div class="row">
             <div class="col-3">
               <img src="{{asset('assets/images/avatar3.svg')}}" width="100" height="100" class="avatar"
-                alt="profile testimoni" />
+                alt="testimonial profile" />
             </div>
             <div class="col-9 pl-2">
               <h3>Salsabila</h3>
-              <small>Mahasiswa</small>
+              <small>Student</small>
             </div>
           </div>
           <div class="row pt-4">
             <p>
-              Bisa milih desain yang aku suka trus juga cepet banget sehari
-              udah jadi web portfolio aku, thanks wipin
+              I could choose the design I liked and they completed my portfolio website in just one day. Thanks, Wipin!
             </p>
             <img src="{{asset('assets/icons/stars.svg')}}" width="300" height="100" class="star"
-              alt="review testimoni wipin" />
+              alt="wipin testimonial review" />
           </div>
         </div>
         <div class="card-item  section-dark-color1 item">
           <div class="row">
             <div class="col-3">
               <img src="{{asset('assets/images/avatar4.svg')}}" width="100" height="100" class="avatar"
-                alt="profile testimoni" />
+                alt="testimonial profile" />
             </div>
             <div class="col-9 pl-2">
               <h3>Andre Kurniawan</h3>
-              <small>Pengusaha</small>
+              <small>Entrepreneur</small>
             </div>
           </div>
           <div class="row pt-4">
             <p>
-              Pesen buat website karena gangerti apa-apa jadi konsul dulu
-              terus dikasih saran terbaik
+              I ordered a website and since I knew nothing about it, I consulted first and they gave me the best recommendations.
             </p>
             <img src="{{asset('assets/icons/stars.svg')}}" width="300" height="100" class="star"
-              alt="review testimoni wipin" />
+              alt="wipin testimonial review" />
           </div>
         </div>
       </div>
       <div class="justify-content-center d-flex">
-        <a href="https://g.co/kgs/PP8cZD" target="_blank" class="btn-main mt-3">Tambah Testimoni</a>
+        <a href="https://g.co/kgs/PP8cZD" target="_blank" class="btn-main mt-3">Add Testimonial</a>
      </div>
-      <img src="{{asset('assets/images/testimoniDesain2.png')}}" class="design1" alt="desain testimoni" />
-      <img src="{{asset('assets/images/testimoniDesain1.png')}}" class="design2" alt="desain testimoni" />
+      <img src="{{asset('assets/images/testimoniDesain2.png')}}" class="design1" alt="testimonial design" />
+      <img src="{{asset('assets/images/testimoniDesain1.png')}}" class="design2" alt="testimonial design" />
     </div>
   </section>
 
   <section id="faq">
     <div class="container">
       <img src="{{asset('assets/images/backgroundDesain.png')}}" class="backgroundDesain h-auto" width="600"
-        height="600" alt="faq wipin" />
+        height="600" alt="wipin faq" />
       <div class="row">
         <div class="text-center mb-3">
           <p class="title-main mb-0 title">FAQ</p>
           <h2 class="mt-1">
-            Pertanyaan Umum <br> Client Wipin
+            Common Questions <br> From Wipin Clients
           </h2>
         </div>
       </div>
@@ -436,15 +427,14 @@
               <h2 class="accordion-header" id="flush-headingOne">
                 <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                  Bagaimana cara menggunakan jasa wipin?
+                  How do I use Wipin's services?
                 </button>
               </h2>
               <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                 data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                   <p>
-                    Klik <a href="#pricelist">Gunakan Jasa</a> dan klik button masing" paket lalu akan diarahkan ke chat
-                    wa selanjutnya diskusi, pembayaran ( DP/full payment ), proses, revisi & finishing
+                    Click <a href="#pricelist">Use Our Services</a> and click the button for each package. You'll be directed to WhatsApp chat for discussion, payment (deposit or full payment), process, revisions & finishing.
                   </p>
                 </div>
               </div>
@@ -453,17 +443,17 @@
               <h2 class="accordion-header" id="flush-headingTwo">
                 <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseTwo" aria-expanded="true" aria-controls="flush-collapseTwo">
-                  Bagaimana dengan sistem pembayaran?
+                  What is your payment system?
                 </button>
               </h2>
               <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                 data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                   <p>
-                    Kami menerima pembayaran ovo,dana,shopepay, mandiri dan bri. <br>
-                    Pembayaran ada 2 opsi : <br>
+                    We accept payments via OVO, Dana, ShopeePay, Mandiri, and BRI. <br>
+                    There are 2 payment options: <br>
                     - Full payment <br>
-                    - DP 50% dan kekurangan bisa di transfer ketika project sudah selesai
+                    - 50% deposit, with the remaining amount to be transferred when the project is completed
                   </p>
                 </div>
               </div>
@@ -475,15 +465,14 @@
               <h2 class="accordion-header" id="flush-headingThree">
                 <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseThree" aria-expanded="true" aria-controls="flush-collapseThree">
-                  Bagaimana jika project selesai namun ada revisi?
+                  What if I need revisions after the project is complete?
                 </button>
               </h2>
               <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
                 data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                   <p>
-                    Kami memberikan free revisi sesuai dengan pilihan paket yang diberikan, diluar dari itu ada tambahan
-                    biaya per-revisi
+                    We provide free revisions according to the selected package. Beyond that, there is an additional cost per revision.
                   </p>
                 </div>
               </div>
@@ -492,15 +481,14 @@
               <h2 class="accordion-header" id="flush-headingFour">
                 <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseFour" aria-expanded="true" aria-controls="flush-collapseFour">
-                  Berapa lama pengerjaan project?
+                  How long does it take to complete a project?
                 </button>
               </h2>
               <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
                 data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                   <p>
-                    Paling cepat 1 hari selesai namun tergantung tingkat kesulitan project, tetapi kebanyakan project
-                    selesai kisaran 2-4 hari
+                    The fastest completion time is 1 day, but it depends on the project's complexity. Most projects are completed within 2-4 days.
                   </p>
                 </div>
               </div>
@@ -518,12 +506,11 @@
     <div class="modal-dialog">
       <div class="modal-content section-dark-color1">
         <div class="modal-header">
-          <h3 class="modal-title fs-5">Juara 1 Desain Web</h3>
+          <h3 class="modal-title fs-5">1st Place in Web Design</h3>
           <button type="button" aria-label="close modal" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body">
-          <p>Diadakan oleh universitas teknologi yogyakarta dengan tema lomba "Ragam Nusantara" pada tanggal 5 Juli
-            sampai 26 Juli dan diumumkan pada tanggal 30 Juli 2021 kami berhasil meraih juara 1 tingkat nasional.</p>
+          <p>Held by Yogyakarta Technology University with the theme "Indonesian Diversity" from July 5 to July 26, with results announced on July 30, 2021. We succeeded in winning 1st place at the national level.</p>
         </div>
       </div>
     </div>
@@ -533,13 +520,11 @@
     <div class="modal-dialog">
       <div class="modal-content section-dark-color1">
         <div class="modal-header">
-          <h3 class="modal-title fs-5">Juara 2 Desain UI UX</h3>
+          <h3 class="modal-title fs-5">2nd Place in UI UX Design</h3>
           <button type="button" class="btn-close" aria-label="close modal" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body">
-          <p>Diadakan oleh lumintulogic yaitu perusahaan teknologi informasi yang ada pada yogyakarta dengan tema
-            redesign UI/UX web company profile lumintulogic yang dimana lomba tersebut dimulai pada tanggal 6 Januari
-            sampai 20 Januari dan pada tanggal 23 Januari 2022 kami diumumkan sebagai juara 2 di tingkat nasional.</p>
+          <p>Held by Lumintulogic, an information technology company in Yogyakarta, with the theme of redesigning the UI/UX of Lumintulogic's company profile website. The competition ran from January 6 to January 20, and on January 23, 2022, we were announced as the 2nd place winner at the national level.</p>
         </div>
       </div>
     </div>
@@ -549,13 +534,11 @@
     <div class="modal-dialog">
       <div class="modal-content section-dark-color1">
         <div class="modal-header">
-          <h3 class="modal-title fs-5">Juara Favorit Web</h3>
+          <h3 class="modal-title fs-5">Favorite Web Award</h3>
           <button type="button" class="btn-close" aria-label="close modal" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body">
-          <p>Diadakan oleh Politeknik Negeri Bali dalam kegiatan INTECH FEST (information and Technology Festival) 2020
-            dengan tema "Information and Technology can Support Future Life" dan kami berhasil mendapatkan Juara Favorit
-            Web Design Competition di tingkat nasional.</p>
+          <p>Held by Bali State Polytechnic during the INTECH FEST (Information and Technology Festival) 2020 with the theme "Information and Technology can Support Future Life". We successfully won the Favorite Web Design Competition Award at the national level.</p>
         </div>
       </div>
     </div>
@@ -566,13 +549,13 @@
   <div class="modal-dialog  modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">PROMO HINGGA AKHIR <span id="newMonth" class="modal-title"></span></h5>
+        <h5 class="modal-title">PROMO UNTIL THE END OF <span id="newMonth" class="modal-title"></span></h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body text-center">
          <img src="{{asset('assets/images/promo-jasa-website-wipin.png')}}" width="100%"
-                alt="promo jasa website termurah hanya di wipin" />
-                    <a href="https://wipinweb.com/jasa-pembuatan-website#pricelist" class="btn fw-bold px-3 btn-warning mt-4">Dapatkan Promo Sekarang</a>
+                alt="website service promo only at wipin" />
+                    <a href="https://wipinweb.com/en/website-development#pricelist" class="btn fw-bold px-3 btn-warning mt-4">Get The Promo Now</a>
       </div>
     
     </div>
@@ -582,11 +565,9 @@
 
 @push('script')
 <script>
-
-
     $(document).ready(function(){
       
-      const month = ["JANUARI","FEBRUARI","MARET","APRIL","MEI","JUNI","JULI","AGUSTUS","SEPTEMBER","OKTOBER","NOVEMBER","DESEMBER"];
+      const month = ["JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER"];
   
       const d = new Date();
       let bulan = month[d.getMonth()];

@@ -3,10 +3,15 @@
 use App\Http\Controllers\PublicController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [PublicController::class, 'index'])->name('home');
+// Indonesian Routes (default)
+Route::get('/', [PublicController::class, 'index'])->name('home.id');
+Route::get('/language/{lang}/{page?}', [PublicController::class, 'switchLanguage'])->name('language.switch');
 
-// Rute untuk bahasa Inggris dengan /en/
-Route::get('/en/{page?}', [PublicController::class, 'show'])->where('page', '.*')->name('show.en');
+// English Routes
+Route::prefix('en')->group(function () {
+    Route::get('/', [PublicController::class, 'index'])->name('home.en');
+    Route::get('/{page?}', [PublicController::class, 'show'])->where('page', '.*')->name('show.en');
+});
 
-// Rute untuk halaman tanpa prefix (Indonesia)
+// Indonesian Routes (specific pages)
 Route::get('/{page?}', [PublicController::class, 'show'])->where('page', '.*')->name('show.id');
