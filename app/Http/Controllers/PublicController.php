@@ -106,11 +106,7 @@ class PublicController extends Controller
 
         // Determine the blade file name
         $bladeName = $page;
-        
-        // For English, we need to map to the Indonesian blade file name
-        if ($lang === 'en') {
-            $bladeName = $this->pageMapping['en'][$page];
-        }
+          
 
         // Determine folder Blade based on language
         $folder = ($lang === 'en') ? 'public.en' : 'public';
