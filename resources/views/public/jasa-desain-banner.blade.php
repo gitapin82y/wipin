@@ -72,7 +72,7 @@
           </div>
         </div>
         <div class="col-12 col-lg-6 p-0">
-          <img src="assets/images/desain-grafis-detail.png')}}" width="811" height="749" class="headerImage" alt="jasa Desain Banner" />
+          <img src="{{asset('assets/images/desain-grafis-detail.png')}}" width="811" height="749" class="headerImage" alt="jasa Desain Banner" />
         </div>
       </div>
     </div>
@@ -98,11 +98,11 @@
           <p class="fw-bold mb-0">Dimulai dari</p>
           <p><span>Rp 150,000</span></p>
           <ul class="p-0">
-          <li><img src="assets/icons/tick.svg" class="me-2" alt="centang">Desain 1 Pilihan</li>
-          <li><img src="assets/icons/tick.svg" class="me-2" alt="centang">Revisi 2x <small class="fw-light">(1 minor & 1 major)</small></li>
-          <li><img src="assets/icons/tick.svg" class="me-2" alt="centang">1-2 Hari</li>
-          <li><img src="assets/icons/cross.svg" class="me-2" alt="silang">File Master CDR/AI</li>
-          <li><img src="assets/icons/tick.svg" class="me-2" alt="centang">Export JPG / PNG</li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">Desain 1 Pilihan</li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">Revisi 2x <small class="fw-light">(1 minor & 1 major)</small></li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">1-2 Hari</li>
+          <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="silang">File Master CDR/AI</li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">Export JPG / PNG</li>
           </ul>
           <a href="
           https://api.whatsapp.com/send?phone=6285198330157&text=Halo%20Admin%20Saya%20Mau%20Order%20Jasa%20Desain%20Banner%20Paket%20A
@@ -113,11 +113,11 @@
           <p class="fw-bold mb-0">Dimulai dari</p>
           <p><span>Rp 300,000</span></p>
           <ul class="p-0">
-          <li><img src="assets/icons/tick.svg" class="me-2" alt="centang">Desain 2 Pilihan</li>
-          <li><img src="assets/icons/tick.svg" class="me-2" alt="centang">Revisi 3x <small class="fw-light">(2 minor & 1 major)</small></li>
-          <li><img src="assets/icons/tick.svg" class="me-2" alt="centang">1-2 Hari</li>
-          <li><img src="assets/icons/tick.svg" class="me-2" alt="centang">File Master CDR/AI</li>
-          <li><img src="assets/icons/tick.svg" class="me-2" alt="centang">Export JPG / PNG</li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">Desain 2 Pilihan</li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">Revisi 3x <small class="fw-light">(2 minor & 1 major)</small></li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">1-2 Hari</li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">File Master CDR/AI</li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">Export JPG / PNG</li>
           </ul>
           <a href="
           https://api.whatsapp.com/send?phone=6285198330157&text=Halo%20Admin%20Saya%20Mau%20Order%20Jasa%20Desain%20Banner%20Paket%20B
@@ -187,7 +187,7 @@
         <div class="card-item  section-dark-color1 item">
           <div class="row">
             <div class="col-3">
-              <img src="{{asset('assets/images/avatar1.svg" width="100" height="100" class="avatar" alt="profile testimoni" />
+              <img src="{{asset('assets/images/avatar1.svg')}}" width="100" height="100" class="avatar" alt="profile testimoni" />
             </div>
             <div class="col-9 pl-2">
               <h3>Yuni</h3>
@@ -199,13 +199,13 @@
               Ga pernah kecewa pesen desain disini, karena hasilnya selalu di
               luar ekspektasi bagus parah.
             </p>
-            <img src="{{asset('assets/icons/stars.svg" width="300" height="100" class="star" alt="review testimoni wipin" />
+            <img src="{{asset('assets/icons/stars.svg')}}" width="300" height="100" class="star" alt="review testimoni wipin" />
           </div>
         </div>
         <div class="card-item  section-dark-color1 item">
           <div class="row">
             <div class="col-3">
-              <img src="{{asset('assets/images/avatar2.svg" width="100" height="100" class="avatar" alt="profile testimoni" />
+              <img src="{{asset('assets/images/avatar2.svg')}}" width="100" height="100" class="avatar" alt="profile testimoni" />
             </div>
             <div class="col-9 pl-2">
               <h3>Saputra</h3>
@@ -216,13 +216,13 @@
             <p>
               Desain minimalis sesuai dengan keinginan dikasih bonus mockup pula, makasiih keren banget 
             </p>
-            <img src="{{asset('assets/icons/stars.svg" width="300" height="100" class="star" alt="review testimoni wipin" />
+            <img src="{{asset('assets/icons/stars.svg')}}" width="300" height="100" class="star" alt="review testimoni wipin" />
           </div>
         </div>
         <div class="card-item  section-dark-color1 item">
           <div class="row">
             <div class="col-3">
-              <img src="{{asset('assets/images/avatar3.svg" width="100" height="100" class="avatar" alt="profile testimoni" />
+              <img src="{{asset('assets/images/avatar3.svg')}}" width="100" height="100" class="avatar" alt="profile testimoni" />
             </div>
             <div class="col-9 pl-2">
               <h3>Wulan</h3>
@@ -234,13 +234,13 @@
               Bisa milih desain yang aku suka trus juga cepet banget sehari
               udah jadi desain aku, thanks wipin
             </p>
-            <img src="{{asset('assets/icons/stars.svg" width="300" height="100" class="star" alt="review testimoni wipin" />
+            <img src="{{asset('assets/icons/stars.svg')}}" width="300" height="100" class="star" alt="review testimoni wipin" />
           </div>
         </div>
         <div class="card-item  section-dark-color1 item">
           <div class="row">
             <div class="col-3">
-              <img src="{{asset('assets/images/avatar4.svg" width="100" height="100" class="avatar" alt="profile testimoni" />
+              <img src="{{asset('assets/images/avatar4.svg')}}" width="100" height="100" class="avatar" alt="profile testimoni" />
             </div>
             <div class="col-9 pl-2">
               <h3>Diana</h3>
@@ -251,7 +251,7 @@
             <p>
               Makasih dah memberikan kualitas terbaik desain buat usaha saya, wipin memang terbaik
             </p>
-            <img src="{{asset('assets/icons/stars.svg" width="300" height="100" class="star" alt="review testimoni wipin" />
+            <img src="{{asset('assets/icons/stars.svg')}}" width="300" height="100" class="star" alt="review testimoni wipin" />
           </div>
         </div>
       </div>

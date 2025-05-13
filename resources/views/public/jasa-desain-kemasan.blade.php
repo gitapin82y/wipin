@@ -74,7 +74,7 @@
           </div>
         </div>
         <div class="col-12 col-lg-6 p-0">
-          <img src="assets/images/desain-grafis-detail.png')}}" width="811" height="749" class="headerImage" alt="jasa Desain Kemasan" />
+          <img src="{{asset('assets/images/desain-grafis-detail.png')}}" width="811" height="749" class="headerImage" alt="jasa Desain Kemasan" />
         </div>
       </div>
     </div>
@@ -100,11 +100,11 @@
           <p class="fw-bold mb-0">Dimulai dari</p>
           <p><span>Rp 200,000</span></p>
           <ul class="p-0">
-          <li><img src="assets/icons/tick.svg')}}" class="me-2" alt="centang">Desain 1 Pilihan</li>
-          <li><img src="assets/icons/tick.svg')}}" class="me-2" alt="centang">Revisi 2x <small class="fw-light">(1 minor & 1 major)</small></li>
-          <li><img src="assets/icons/tick.svg')}}" class="me-2" alt="centang">1-2 Hari</li>
-          <li><img src="assets/icons/cross.svg')}}" class="me-2" alt="silang">File Master CDR/AI</li>
-          <li><img src="assets/icons/tick.svg')}}" class="me-2" alt="centang">Export JPG / PNG</li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">Desain 1 Pilihan</li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">Revisi 2x <small class="fw-light">(1 minor & 1 major)</small></li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">1-2 Hari</li>
+          <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="silang">File Master CDR/AI</li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">Export JPG / PNG</li>
           </ul>
           <a href="
           https://api.whatsapp.com/send?phone=6285198330157&text=Halo%20Admin%20Saya%20Mau%20Order%20Jasa%20Desain%20Kemasan%20Paket%20A
@@ -115,11 +115,11 @@
           <p class="fw-bold mb-0">Dimulai dari</p>
           <p><span>Rp 400,000</span></p>
           <ul class="p-0">
-          <li><img src="assets/icons/tick.svg')}}" class="me-2" alt="centang">Desain 2 Pilihan</li>
-          <li><img src="assets/icons/tick.svg')}}" class="me-2" alt="centang">Revisi 3x <small class="fw-light">(2 minor & 1 major)</small></li>
-          <li><img src="assets/icons/tick.svg')}}" class="me-2" alt="centang">1-2 Hari</li>
-          <li><img src="assets/icons/tick.svg')}}" class="me-2" alt="centang">File Master CDR/AI</li>
-          <li><img src="assets/icons/tick.svg')}}" class="me-2" alt="centang">Export JPG / PNG</li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">Desain 2 Pilihan</li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">Revisi 3x <small class="fw-light">(2 minor & 1 major)</small></li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">1-2 Hari</li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">File Master CDR/AI</li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="centang">Export JPG / PNG</li>
           </ul>
           <a href="
           https://api.whatsapp.com/send?phone=6285198330157&text=Halo%20Admin%20Saya%20Mau%20Order%20Jasa%20Desain%20Kemasan%20Paket%20B

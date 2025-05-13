@@ -74,7 +74,7 @@
           </div>
         </div>
         <div class="col-12 col-lg-6 p-0">
-          <img src="assets/images/jasa-desain-grafis.png')}}" width="811" height="749" class="headerImage" alt="penyedia jasa desain grafis wipin" />
+          <img src="{{asset('assets/images/jasa-desain-grafis.png')}}" width="811" height="749" class="headerImage" alt="penyedia jasa desain grafis wipin" />
         </div>
       </div>
     </div>

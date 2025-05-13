@@ -179,14 +179,21 @@
   <div class="container">
     <img src="{{asset('assets/images/backgroundDesain.png')}}" class="backgroundDesain h-auto" width="600" height="600"
       alt="portfolio wipin" />
-    <div class="row">
-      <div class="text-center mb-4">
-        <p class="title-main mb-0 title">Portfolio</p>
-        <h2 class="mt-1">
-          Hasil Project Dari<br> Jasa Desain UI UX
-        </h2>
+    <div class="row mb-5">
+        <div class="col-md-8 col-12">
+          <div class="d-flex flex-column align-items-center align-items-md-start text-center text-md-left">
+            <p class="title-main mb-0 title">Portfolio</p>
+            <h2 class="mt-1">
+              Hasil Proyek Wipin dari Berbagai Industri
+            </h2>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="justify-content-md-end justify-content-center d-flex">
+            <a href="/portfolio" class="btn-main mt-3">Lihat Semua</a>
+         </div>
+        </div>
       </div>
-    </div>
   </div>
   <div class="row justify-content-center px-3 px-md-0">
     <div class="owl-carousel owl-theme">
