@@ -98,7 +98,7 @@
         <div class="card-item section-dark-color1 col-12 col-md-5" data-aos="fade-up">
           <h3 class="f-28 mb-2">Package A</h3>
           <p class="fw-bold mb-0">Starting from</p>
-          <p><span>Rp 200,000</span></p>
+            <p><span>$25.00</span></p>
           <ul class="p-0">
           <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check">1 Design Option</li>
           <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check">2 Revisions <small class="fw-light">(1 minor & 1 major)</small></li>
@@ -113,7 +113,7 @@
         <div class="card-item section-dark-color1 col-12 col-md-5" data-aos="fade-up">
           <h3 class="f-28 mb-2">Package B</h3>
           <p class="fw-bold mb-0">Starting from</p>
-          <p><span>Rp 400,000</span></p>
+             <p><span>$50.00</span></p>
           <ul class="p-0">
           <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check">2 Design Options</li>
           <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check">3 Revisions <small class="fw-light">(2 minor & 1 major)</small></li>

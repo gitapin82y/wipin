@@ -136,8 +136,8 @@
       <div class="card-item section-dark-color1 col-12 col-md-3" data-aos="fade-up">
         <h3>Package A</h3>
         <p class="fw-bold my-2">Price Per Page</p>
-        <p class="mb-0"><span>Rp 35,000</span> | Mobile design</p>
-        <p class="mb-0"><span>Rp 45,000</span> | Web design</p>
+        <p class="mb-0"><span>$8.75</span> | Mobile design</p>
+        <p class="mb-0"><span>$11.25</span> | Web design</p>
         <ul class="pb-0">
           <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Free Prototype</li>
           <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Color Request</li>
@@ -153,8 +153,8 @@
       <div class="card-item section-dark-color1 col-12 col-md-3" data-aos="fade-up">
         <h3>Package B</h3>
         <p class="fw-bold my-2">Price Per Page</p>
-        <p class="mb-0"><span>Rp 45,000</span> | Mobile design</p>
-        <p class="mb-0"><span>Rp 55,000</span> | Web design</p>
+        <p class="mb-0"><span>$11.25</span> | Mobile design</p>
+        <p class="mb-0"><span>$13.75</span> | Web design</p>
         <ul class="pb-0">
           <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Free Prototype</li>
           <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Color Request</li>

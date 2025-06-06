@@ -10,7 +10,30 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+<style>
+  .lang-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #2c3e50;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
 
+  .lang-btn:hover {
+    transform: scale(1.05);
+    background-color: #34495e;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  }
+
+  .lang-btn:active {
+    transform: scale(0.97);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+</style>
 <style>
     .language-switcher {
     position: fixed;
@@ -20,18 +43,6 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-}
-
-.lang-btn img {
-    width: 40px;
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s;
-}
-
-.lang-btn img:hover {
-    transform: scale(1.1);
 }
 
 </style>

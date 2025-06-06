@@ -137,49 +137,49 @@
         <div class="card-item section-dark-color1 col-12 col-md-3" data-aos="fade-up">
           <h3>Logo Design</h3>
           <p class="fw-bold mt-3 mb-0">Starting from</p>
-          <p><span>Rp 200,000</span></p>
+          <p><span>$26.00</span></p>
           
           <a href="logo-design#pricelist" class="btn-main mt-4">More Details</a>
         </div>
         <div class="card-item section-dark-color1 col-12 col-md-3" data-aos="fade-up">
           <h3>Banner Design</h3>
           <p class="fw-bold mt-3 mb-0">Starting from</p>
-          <p><span>Rp 150,000</span></p>
+          <p><span>$18.75</span></p>
           
           <a href="banner-design#pricelist" class="btn-main mt-4">More Details</a>
         </div>
         <div class="card-item section-dark-color1 col-12 col-md-3" data-aos="fade-up">
           <h3>Packaging Design</h3>
           <p class="fw-bold mt-3 mb-0">Starting from</p>
-          <p><span>Rp 200,000</span></p>
+          <p><span>$25.00</span></p>
           
           <a href="packaging-design#pricelist" class="btn-main mt-4">More Details</a>
         </div>
         <div class="card-item section-dark-color1 col-12 col-md-3" data-aos="fade-up">
           <h3>Poster Design</h3>
           <p class="fw-bold mt-3 mb-0">Starting from</p>
-          <p><span>Rp 150,000</span></p>
+          <p><span>$18.75</span></p>
           
           <a href="poster-design#pricelist" class="btn-main mt-4">More Details</a>
         </div>
         <div class="card-item section-dark-color1 col-12 col-md-3" data-aos="fade-up">
           <h3>T-shirt Design</h3>
           <p class="fw-bold mt-3 mb-0">Starting from</p>
-          <p><span>Rp 150,000</span></p>
+          <p><span>$18.75</span></p>
           
-          <a href="t-shirt-design#pricelist" class="btn-main mt-4">More Details</a>
+          <a href="tshirt-design#pricelist" class="btn-main mt-4">More Details</a>
         </div>
         <div class="card-item section-dark-color1 col-12 col-md-3" data-aos="fade-up">
           <h3>Brochure Design</h3>
           <p class="fw-bold mt-3 mb-0">Starting from</p>
-          <p><span>Rp 150,000</span></p>
+          <p><span>$18.75</span></p>
           
           <a href="brochure-design#pricelist" class="btn-main mt-4">More Details</a>
         </div>
         <div class="card-item section-dark-color1 col-12 col-md-3" data-aos="fade-up">
           <h3>Certificate Design</h3>
           <p class="fw-bold mt-3 mb-0">Starting from</p>
-          <p><span>Rp 100,000</span></p>
+          <p><span>$12.50</span></p>
           
           <a href="certificate-design#pricelist" class="btn-main mt-4">More Details</a>
         </div>
@@ -187,7 +187,7 @@
         <div class="card-item section-dark-color1 col-12 col-md-3" data-aos="fade-up">
           <h3>Instagram Feed Design</h3>
           <p class="fw-bold mt-3 mb-0">Starting from</p>
-          <p><span>Rp 150,000</span></p>
+          <p><span>$18.75</span></p>
      
           <a href="instagram-feed-design#pricelist" class="btn-main mt-4">More Details</a>
         </div>
@@ -195,7 +195,7 @@
         <div class="card-item section-dark-color1 col-12 col-md-3" data-aos="fade-up">
           <h3>Envelope Design</h3>
           <p class="fw-bold mt-3 mb-0">Starting from</p>
-          <p><span>Rp 100,000</span></p>
+          <p><span>$12.50</span></p>
           
           <a href="envelope-design#pricelist" class="btn-main mt-4">More Details</a>
         </div>

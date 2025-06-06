@@ -33,8 +33,8 @@
 @section('meta_twitter_image', asset('assets/images/jasa-pembuatan-web-dan-joki-tugas-it-murah-wipin.png'))
 
 @push('style')
-<!-- Add CSS if needed -->
 <style>
+    /* Portfolio Items Styling */
     .portfolio-item {
         margin-bottom: 30px;
         border-radius: 10px;
@@ -99,10 +99,88 @@
         background-color: var(--main-color);
         color: white;
     }
+    
+    /* Recent Projects Section */
+    .recent-project-item {
+        margin: 15px 0;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    .preview-link {
+        color: #ffa24d;
+        text-decoration: none;
+        font-weight: bold;
+        display: block;
+        margin-top: 10px;
+    }
+    
+    .preview-link:hover {
+        color: #ff8c1a;
+    }
+    
+    /* Stats Counter */
+    .counter-section {
+        padding: 30px 0;
+    }
+    
+    .counter-item {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .counter-number {
+        font-size: 3rem;
+        font-weight: bold;
+        color: var(--main-color);
+        margin-bottom: 10px;
+    }
+    
+    .counter-label {
+        font-size: 1.1rem;
+    }
+    
+    /* Client Logos */
+    .client-logos {
+        margin: 40px 0;
+    }
+    
+    .client-logos img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Stats */
+    .number {
+        font-size: 2.5rem;
+        color: var(--main-color);
+    }
 </style>
 @endpush
 
 @section('content')
+<!-- Stats Counter Section -->
+<section id="portfolio-stats" class="py-4">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6">
+                <div class="counter-item">
+                    <h2 class="number title">389</h2>
+                    <p>Satisfied Clients</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="counter-item">
+                    <h2 class="number title">413</h2>
+                    <p>Completed Projects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Header Section -->
 <section id="portfolio-header" class="py-5">
     <div class="container">
         <div class="row">
@@ -114,6 +192,50 @@
             </div>
         </div>
         
+        <!-- Recent Projects Section -->
+        <div class="row mb-5">
+            <div class="col-12 text-center" data-aos="fade-up">
+                <h2 class="mb-4">Recently Completed Projects</h2>
+                <p>Take a look at our most recent website projects that we've successfully delivered to our clients.</p>
+            </div>
+        </div>
+        
+        <div class="row justify-content-around mb-5">
+            <div class="col-md-4 col-sm-6 recent-project-item section-dark-color1" data-aos="fade-up">
+                <img src="{{asset('assets/portfolio/catu-inter-global.png')}}" alt="Catu Inter Global Website" class="img-fluid">
+                <div class="p-3">
+                    <h3>Catu Inter Global</h3>
+                    <p>Corporate website with elegant design and responsive functionality</p>
+                    <a href="https://catuinterglobal.com" class="preview-link" target="_blank">
+                        View Live Site &nbsp; <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 recent-project-item section-dark-color1" data-aos="fade-up">
+                <img src="{{asset('assets/portfolio/gemilang-indo-karya.png')}}" alt="Gemilang Indo Karya Website" class="img-fluid">
+                <div class="p-3">
+                    <h3>Gemilang Indo Karya</h3>
+                    <p>Business website with modern design and informative content</p>
+                    <a href="https://gemilangindokarya.com" class="preview-link" target="_blank">
+                        View Live Site &nbsp; <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 recent-project-item section-dark-color1" data-aos="fade-up">
+                <img src="{{asset('assets/portfolio/indonesia-medical-center.png')}}" alt="Indonesia Medical Center Website" class="img-fluid">
+                <div class="p-3">
+                    <h3>Indonesia Medical Center</h3>
+                    <p>Healthcare website with clean design and user-friendly navigation</p>
+                    <a href="https://indonesiamedicalcenter.com" class="preview-link" target="_blank">
+                        View Live Site &nbsp; <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Portfolio Filters -->
         <div class="portfolio-filters">
             <button class="filter-btn active" data-filter="all">All</button>
             <button class="filter-btn" data-filter="website">Website</button>
@@ -121,6 +243,7 @@
             <button class="filter-btn" data-filter="graphic">Graphic Design</button>
         </div>
         
+        <!-- Portfolio Grid -->
         <div class="row">
             <!-- Website Projects -->
             <div class="col-md-4 col-sm-6 portfolio-item" data-category="website">
@@ -164,6 +287,88 @@
                 <div class="portfolio-info">
                     <h3>Coffee Shop Website</h3>
                     <p>Modern website for a coffee shop chain with product showcase and store locator</p>
+                    <span class="portfolio-category">Website</span>
+                </div>
+            </div>
+            
+            <!-- Additional Website Projects (from Indonesian version) -->
+            <div class="col-md-4 col-sm-6 portfolio-item" data-category="website">
+                <img src="{{asset('assets/portfolio/website-bisnis-kios-toyota.png')}}" alt="Toyota Business Website">
+                <div class="portfolio-info">
+                    <h3>Automotive Business Website</h3>
+                    <p>SEO-friendly Toyota dealership website designed to increase sales and customer engagement</p>
+                    <span class="portfolio-category">Website</span>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 portfolio-item" data-category="website">
+                <img src="{{asset('assets/portfolio/website-artikel-travel.png')}}" alt="Travel Article Website">
+                <div class="portfolio-info">
+                    <h3>Travel Blog Website</h3>
+                    <p>Travel website that attracts customers through articles about destinations and travel tips</p>
+                    <span class="portfolio-category">Website</span>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 portfolio-item" data-category="website">
+                <img src="{{asset('assets/portfolio/website-landing-page-jasa-sedot-wc.png')}}" alt="Service Landing Page">
+                <div class="portfolio-info">
+                    <h3>Service Landing Page</h3>
+                    <p>Single-page business information optimized to highlight services and generate leads</p>
+                    <span class="portfolio-category">Website</span>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 portfolio-item" data-category="website">
+                <img src="{{asset('assets/portfolio/web-produk-neo-furniture.png')}}" alt="Furniture Product Website">
+                <div class="portfolio-info">
+                    <h3>Furniture Product Showcase</h3>
+                    <p>E-commerce platform for browsing furniture products with WhatsApp ordering system</p>
+                    <span class="portfolio-category">Website</span>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 portfolio-item" data-category="website">
+                <img src="{{asset('assets/portfolio/website-personal-build-by-wipin.png')}}" alt="Personal Website">
+                <div class="portfolio-info">
+                    <h3>Developer Portfolio</h3>
+                    <p>Personal website for a freelance full-stack developer showcasing portfolio and skills</p>
+                    <span class="portfolio-category">Website</span>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 portfolio-item" data-category="website">
+                <img src="{{asset('assets/portfolio/Web-Property-Bisnis.png')}}" alt="Property Business Website">
+                <div class="portfolio-info">
+                    <h3>Real Estate Listings</h3>
+                    <p>Property information platform with WhatsApp integration for contacting sales team</p>
+                    <span class="portfolio-category">Website</span>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 portfolio-item" data-category="website">
+                <img src="{{asset('assets/portfolio/web-sekolah.png')}}" alt="School Website">
+                <div class="portfolio-info">
+                    <h3>School Website</h3>
+                    <p>Educational institution website with curriculum information, activities, and online registration</p>
+                    <span class="portfolio-category">Website</span>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 portfolio-item" data-category="website">
+                <img src="{{asset('assets/portfolio/Web-Ecommerce.png')}}" alt="E-commerce Website">
+                <div class="portfolio-info">
+                    <h3>E-commerce Platform</h3>
+                    <p>Online shopping website with attractive design and automated payment system</p>
+                    <span class="portfolio-category">Website</span>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 portfolio-item" data-category="website">
+                <img src="{{asset('assets/portfolio/webcostum.png')}}" alt="Custom Business Website">
+                <div class="portfolio-info">
+                    <h3>Custom Business Application</h3>
+                    <p>Web-based business management system for data handling, finance, inventory, and employee monitoring</p>
                     <span class="portfolio-category">Website</span>
                 </div>
             </div>
@@ -218,6 +423,83 @@
     </div>
 </section>
 
+<!-- Client Logos Section -->
+<section id="client-logos" class="py-5 section-dark-color">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h2>Trusted By Various Industries</h2>
+                <p>Companies from different sectors have placed their trust in Wipin to deliver high-quality digital solutions.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <img src="{{asset('assets/portfolio/client-wipin.png')}}" class="img-fluid" alt="Wipin Clients">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h2>Client Testimonials</h2>
+                <p>What our clients say about working with us</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-4">
+                <div class="portfolio-item">
+                    <div class="portfolio-info">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="{{asset('assets/images/avatar1.svg')}}" width="50" height="50" class="rounded-circle me-3" alt="Client Avatar">
+                            <div>
+                                <h4 class="mb-0">Aditya</h4>
+                                <p class="mb-0 text-muted">Entrepreneur</p>
+                            </div>
+                        </div>
+                        <p>"Never disappointed when ordering designs here, because the results always exceed expectations - amazing quality."</p>
+                        <img src="{{asset('assets/icons/stars.svg')}}" width="120" alt="5-star Rating">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="portfolio-item">
+                    <div class="portfolio-info">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="{{asset('assets/images/avatar3.svg')}}" width="50" height="50" class="rounded-circle me-3" alt="Client Avatar">
+                            <div>
+                                <h4 class="mb-0">Salsabila</h4>
+                                <p class="mb-0 text-muted">Student</p>
+                            </div>
+                        </div>
+                        <p>"I could choose the design I liked and it was incredibly fast - my portfolio website was ready in just one day. Thanks Wipin!"</p>
+                        <img src="{{asset('assets/icons/stars.svg')}}" width="120" alt="5-star Rating">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="portfolio-item">
+                    <div class="portfolio-info">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="{{asset('assets/images/avatar4.svg')}}" width="50" height="50" class="rounded-circle me-3" alt="Client Avatar">
+                            <div>
+                                <h4 class="mb-0">Andre Kurniawan</h4>
+                                <p class="mb-0 text-muted">Business Owner</p>
+                            </div>
+                        </div>
+                        <p>"I ordered a website with no prior knowledge, so I consulted first and they provided the best recommendations for my business."</p>
+                        <img src="{{asset('assets/icons/stars.svg')}}" width="120" alt="5-star Rating">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action Section -->
 <section id="contact-cta" class="py-5 section-dark-color">
     <div class="container text-center">
         <h2 class="mb-4">Ready to Start Your Project?</h2>
@@ -246,6 +528,26 @@
                 $('.portfolio-item[data-category="'+category+'"]').show();
             }
         });
+        
+        // Initialize any carousels or sliders if needed
+        if($('.owl-carousel').length) {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+        }
     });
 </script>
 @endpush

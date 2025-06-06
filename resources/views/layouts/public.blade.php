@@ -82,17 +82,18 @@
   <!-- end body -->
 
   <!-- Language Switcher -->
-  <div class="language-switcher">
-    @if ($lang === 'en')
-        <a href="{{ route('language.switch', ['lang' => 'id', 'page' => $page ?? 'home']) }}" class="lang-btn" title="Bahasa Indonesia">
-            <span>🇮🇩 Indonesia</span>
-        </a>
-    @else
-        <a href="{{ route('language.switch', ['lang' => 'en', 'page' => $page ?? 'home']) }}" class="lang-btn" title="English">
-            <span>🇬🇧 English</span> 
-        </a>
-    @endif
-  </div>
+<div class="language-switcher">
+  @if ($lang === 'en')
+    <a href="{{ route('language.switch', ['lang' => 'id', 'page' => $page ?? 'home']) }}" class="lang-btn" title="Bahasa Indonesia">
+      <span>🇮🇩 Indonesia</span>
+    </a>
+  @else
+    <a href="{{ route('language.switch', ['lang' => 'en', 'page' => $page ?? 'home']) }}" class="lang-btn" title="English">
+      <span>🇬🇧 English</span>
+    </a>
+  @endif
+</div>
+
 
   <a href="https://wa.me/6285198330157" class="floating" target="_blank">
     <i class="fab fa-whatsapp fab-icon"></i>

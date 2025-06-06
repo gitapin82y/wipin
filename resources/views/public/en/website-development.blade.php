@@ -142,7 +142,7 @@
           <div class="card-item col-12 col-md-4 mt-4 section-dark-color1" data-aos="fade-up">
             <h3>Free Domain</h3>
             <p>
-              You can request a domain name and don't need to spend more than 100k just to buy a domain
+              You can request a domain name and don't need to spend any more money to buy a domain.
             </p>
           </div>
           <div class="card-item col-12 col-md-4 mt-4 section-dark-color1" data-aos="fade-up">
@@ -178,9 +178,10 @@
           <h3>Small Package</h3>
           <p class="fw-light">Perfect for personal websites, portfolios, landing pages</p>
           <p class="fw-bold m-0">Package Price</p>
-          <p><span>Rp 50.000 </span><small>/Month</small></p>
+             <p><span>$6.25 /Month</span></p>
+        {{-- (Rp 50k × 2 = Rp $10 ÷ 16,000 = $6.25) --}}
           <ul class="p-0">
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Free 1 Page <small class="fw-light">(additional? 100k per page)</small></li>
+            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Free 1 Page <small class="fw-light">(additional? $10 per page)</small></li>
             <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="cross"> Free Google Ads</li>
             <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Free 5 Revisions</li>
                         <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Speed Optimization <small class="fw-light">(high perform)</small></li>
@@ -195,7 +196,7 @@
             <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="cross"> Google Analytics <small class="fw-light">(website visitor analysis)</small></li>
             <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Lifetime Warranty</li>
           </ul>
-          <p class="fw-light mt-4 desc">Minimum active period 1 year, renewal only 400k per year</p>
+          <p class="fw-light mt-4 desc">Minimum active period 1 year, renewal only $30 per year</p>
           <a href="
           https://api.whatsapp.com/send?phone=6285198330157&text=Hello%20Admin%20I%20Want%20To%20Order%20Website%20Development%20Small%20Package
         " class="btn-main btn-bottom" target="_blank">Check Price/Year</a>
@@ -204,11 +205,12 @@
         <div class="card-item show-popup section-dark-color1 col-12 col-md-6 col-lg-3" data-aos="fade-up">
           <h3>Medium Package</h3>
           <p class="fw-light">Perfect for medium businesses such as promotional websites, small business websites</p>
-          <p class="fw-bold m-0 text-warning">20% Discount</p>
-          <p class="line-through mb-0">Rp 100.000 <small>/Month</small></p>
-          <p><span>Rp 80.000 </span><small>/Month</small></p>
+          <p class="fw-bold m-0 text-warning">20% Discount</p>         
+          <p class="line-through mb-0">$12.50 <small>/Month</small></p>
+        <p><span>$10.00 /Month</span></p>
+        {{-- (Rp 80k × 2 = Rp 160k ÷ 16,000 = $10.00) --}}
           <ul class="p-0">
-            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Free 4 Pages <small class="fw-light">(additional? 100k per page)</small></li>
+            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Free 4 Pages <small class="fw-light">(additional? $10 per page)</small></li>
             <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="cross"> Free Google Ads</li>
             <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Free 10 Revisions</li>
                          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Speed Optimization <small class="fw-light blink text-warning">(2x faster)</small></li>
@@ -223,7 +225,7 @@
             <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="cross"> Google Analytics <small class="fw-light">(website visitor analysis)</small></li>
             <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Lifetime Warranty</li>
           </ul>
-          <p class="fw-light mt-4 desc">Minimum active period 1 year, renewal only 400k per year</p>
+          <p class="fw-light mt-4 desc">Minimum active period 1 year, renewal only $30 per year</p>
           <a href="
           https://api.whatsapp.com/send?phone=6285198330157&text=Hello%20Admin%20I%20Want%20To%20Order%20Website%20Development%20Medium%20Package
         " class="btn-main btn-bottom" target="_blank">Check Price/Year</a>
@@ -235,10 +237,11 @@
             <p class="fw-bold m-0 text-warning">32% Discount 
               <small class="blink text-warning">( BESTSELLER )</small>
             </p>
-            <p class="line-through mb-0">Rp 220.000 <small>/Month</small></p>
-            <p><span>Rp 150.000 </span><small>/Month</small></p>
+                    <p class="line-through mb-0">$27.50 <small>/Month</small></p>
+        <p><span>$18.75 /Month</span></p>
+        {{-- (Rp 150k × 2 = Rp 300k ÷ 16,000 = $18.75) --}}
             <ul class="p-0">
-              <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Free 8 Pages <small class="fw-light">(additional? 100k per page)</small></li>
+              <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Free 8 Pages <small class="fw-light">(additional? $10 per page)</small></li>
               <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Free Google Ads</li>
               <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Free 99 Revisions</li>
                            <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Speed Optimization <small class="fw-light blink text-warning">(10x faster)</small></li>
@@ -253,7 +256,7 @@
               <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Google Analytics <small class="fw-light">(website visitor analysis)</small></li>
               <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Lifetime Warranty</li>
             </ul>
-            <p class="fw-light mt-4 desc">Minimum active period 1 year, renewal only 400k per year</p>
+            <p class="fw-light mt-4 desc">Minimum active period 1 year, renewal only $30 per year</p>
             <a href="
             https://api.whatsapp.com/send?phone=6285198330157&text=Hello%20Admin%20I%20Want%20To%20Order%20Website%20Development%20Premium%20Package
           " class="btn-main btn-bottom" target="_blank">Check Price/Year</a>
@@ -263,9 +266,10 @@
             <h3>Business Package</h3>
             <p class="fw-light">Perfect for websites with advanced features and more website menus</p>
               <p class="fw-bold m-0">Package Price</p>
-              <p><span>Rp 250.000 </span><small>/Month</small></p>
+                      <p><span>$31.25 /Month</span></p>
+        {{-- (Rp 250k × 2 = Rp 500k ÷ 16,000 = $31.25) --}}
               <ul class="p-0">
-                <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Free 14 Pages <small class="fw-light">(additional? 100k per page)</small></li>
+                <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Free 14 Pages <small class="fw-light">(additional? $10 per page)</small></li>
                 <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Free Google Ads</li>
                 <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Free 99 Revisions</li>
                              <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Speed Optimization <small class="fw-light blink text-warning">(10x faster)</small></li>
@@ -280,7 +284,7 @@
                 <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Google Analytics <small class="fw-light">(website visitor analysis)</small></li>
                 <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check"> Lifetime Warranty</li>
               </ul>
-              <p class="fw-light mt-4 desc">Minimum active period 1 year, renewal only 400k per year</p>
+              <p class="fw-light mt-4 desc">Minimum active period 1 year, renewal only $30 per year</p>
               <a href="
               https://api.whatsapp.com/send?phone=6285198330157&text=Hello%20Admin%20I%20Want%20To%20Order%20Website%20Development%20Business%20Package
             " class="btn-main btn-bottom" target="_blank">Check Price/Year</a>
@@ -733,34 +737,28 @@
 
 @push('script')
 <script>
-    $('.show-popup a').click(function(e) {
-  e.preventDefault();
+  $('.show-popup a').click(function(e) {
+    e.preventDefault();
+    var paketName = $(this).parent().find('h3').text();
+    var priceElement = $(this).parent().find('span').first();
+    var price = parseFloat(priceElement.text().replace(/[^0-9.]/g, ''));
+    var total = price * 12;
 
-  // Get package name and monthly price
-  var paketName = $(this).parent().find('h3').text();
-  var priceElement = $(this).parent().find('span');
-  var priceString = priceElement.text().replace('.', '').replace('Rp ', '');
-  var pricePerMonth = parseFloat(priceString);
-
-  // Calculate total cost per year
-  var totalCost = pricePerMonth * 12;
-
-  Swal.fire({
-    html: `<strong>${paketName}</strong><br>
-           Monthly price: Rp ${pricePerMonth.toLocaleString('id-ID')}<br>
-           Total cost (12 months): Rp ${totalCost.toLocaleString('id-ID')}`,
-    icon: 'success',
-    showCancelButton: true,
-    confirmButtonColor: '#3085d6',
-    cancelButtonColor: '#d33',
-    confirmButtonText: 'Continue to WhatsApp',
-    cancelButtonText: 'Cancel'
-      }).then((result) => {
-        if (result.isConfirmed) {
-          // Continue to WhatsApp link if confirmed
-          window.location.href = $(this).attr('href');
-        }
-      });
+    Swal.fire({
+      html: `<strong>${paketName}</strong><br>
+             Monthly price: $${price.toFixed(2)}<br>
+             Total cost (12 months): $${total.toFixed(2)}`,
+      icon: 'success',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Continue to WhatsApp',
+      cancelButtonText: 'Cancel'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        window.location.href = $(this).attr('href');
+      }
     });
-  </script>
+  });
+</script>
 @endpush

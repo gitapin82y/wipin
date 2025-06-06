@@ -159,7 +159,7 @@
         <div class="card-item section-dark-color1 col-12 col-md-4" data-aos="fade-up">
           <h3>Website Development</h3>
           <p class="fw-bold">Starting from</p>
-          <span>Rp 50,000</span>
+          <span>$6.25</span>
           <ul>
             <li>Free revisions</li>
             <li>Free hosting</li>
@@ -170,8 +170,8 @@
         <div class="card-item  section-dark-color1 col-12 col-md-4" data-aos="fade-up">
           <h3>UI UX Design</h3>
           <p class="fw-bold">Price per page</p>
-          <p class="mb-0"><span>Rp 30,000</span> | Mobile design</p>
-          <p class="mb-0"><span>Rp 45,000</span> | Web design</p>
+          <p class="mb-0"><span>$8.75</span> | Mobile design</p>
+          <p class="mb-0"><span>$11.25</span> | Web design</p>
           <ul>
             <li>Custom color schemes</li>
             <li>Free prototype</li>
@@ -182,8 +182,7 @@
         <div class="card-item  section-dark-color1 col-12 col-md-4" data-aos="fade-up">
           <h3>Graphic Design</h3>
           <p class="fw-bold">Starting from</p>
-          <p class="line-through mb-0">Rp 200,000</p>
-          <span>Rp 100,000</span>
+          <span>$12.50</span>
 
           <ul>
             <li>Custom color schemes</li>
