@@ -869,13 +869,13 @@
       <div class="row">
         <div class="col-12 col-lg-6">
           <div class="col-12 main-header pt-2 text-center text-lg-start">
-            <h1 class="title">
-              <span class="gradient">Portfolio</span> Website and Design Wipin
+           <h1 class="title">
+              Situs Web dan Desain <span class="gradient">Portofolio</span> Wipin
             </h1>
             <p class="mt-4 mb-5">
-              You can see various projects that we have completed from various industries. Wipin is proud of the results of every project that helps client needs, and is committed to providing the best results that suit your needs and vision.
+              Anda dapat melihat berbagai proyek yang telah kami selesaikan dari berbagai industri. Wipin bangga dengan hasil setiap proyek yang membantu kebutuhan klien, dan berkomitmen untuk memberikan hasil terbaik yang sesuai dengan kebutuhan dan visi Anda.
             </p>
-            <a href="#portfolio-header" class="btn-main">See Portfolio</a>
+            <a href="#portfolio-header" class="btn-main">Lihat Portofolio</a>
           </div>
           <div class="col-12 text-center text-lg-start">
             <div class="d-flex">
@@ -919,8 +919,8 @@
             <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1"  data-category="website">
                 <img src="{{asset('assets/portfolio/website-bisnis-kios-toyota.png')}}" alt="Toyota Business Website">
                 <div class="portfolio-info">
-                    <h3>Automotive Business Website</h3>
-                    <p>SEO-friendly Toyota dealership website designed to increase sales and customer engagement</p>
+                    <h3>Situs Web Bisnis Otomotif</h3>
+                    <p>Situs web dealer Toyota yang ramah SEO dirancang untuk meningkatkan penjualan dan keterlibatan pelanggan</p>
                     <span class="portfolio-category">Static Website</span>
                 </div>
             </div>
@@ -928,8 +928,8 @@
             <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1"  data-category="website">
                 <img src="{{asset('assets/portfolio/website-artikel-travel.png')}}" alt="Travel Article Website">
                 <div class="portfolio-info">
-                    <h3>Travel Blog Website</h3>
-                    <p>Travel website that attracts customers through articles about destinations and travel tips</p>
+                 <h3>Situs Web Blog Perjalanan</h3>
+                    <p>Situs web perjalanan yang menarik pelanggan melalui artikel tentang destinasi dan tips perjalanan</p>
                     <span class="portfolio-category">Static Website</span>
                 </div>
             </div>
@@ -937,8 +937,8 @@
             <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1"  data-category="website">
                 <img src="{{asset('assets/portfolio/website-landing-page-jasa-sedot-wc.png')}}" alt="Service Landing Page">
                 <div class="portfolio-info">
-                    <h3>Service Landing Page</h3>
-                    <p>Single-page business information optimized to highlight services and generate leads</p>
+                   <h3>Landing Page</h3>
+                    <p>Informasi bisnis satu halaman yang dioptimalkan untuk menyoroti layanan dan menghasilkan prospek</p>
                     <span class="portfolio-category">Static Website</span>
                 </div>
             </div>
@@ -946,8 +946,8 @@
             <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1"  data-category="website">
                 <img src="{{asset('assets/portfolio/web-produk-neo-furniture.png')}}" alt="Furniture Product Website">
                 <div class="portfolio-info">
-                    <h3>Furniture Product Showcase</h3>
-                    <p>E-commerce platform for browsing furniture products with WhatsApp ordering system</p>
+                <h3>Etalase Produk Furnitur</h3>
+                    <p>Platform e-commerce untuk melihat-lihat produk furnitur dengan sistem pemesanan melalui WhatsApp</p>
                     <span class="portfolio-category">Static Website</span>
                 </div>
             </div>
@@ -955,8 +955,8 @@
             <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1"  data-category="website">
                 <img src="{{asset('assets/portfolio/website-personal-build-by-wipin.png')}}" alt="Personal Website">
                 <div class="portfolio-info">
-                    <h3>Developer Portfolio</h3>
-                    <p>Personal website for a freelance full-stack developer showcasing portfolio and skills</p>
+                   <h3>Portofolio Pengembang</h3>
+                    <p>Situs web pribadi untuk pengembang full-stack lepas yang menampilkan portofolio dan keahlian</p>
                     <span class="portfolio-category">Static Website</span>
                 </div>
             </div>
@@ -964,8 +964,8 @@
             <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1"  data-category="website">
                 <img src="{{asset('assets/portfolio/Web-Property-Bisnis.png')}}" alt="Property Business Website">
                 <div class="portfolio-info">
-                    <h3>Real Estate Listings</h3>
-                    <p>Property information platform with WhatsApp integration for contacting sales team</p>
+                <h3>Daftar Properti Real Estat</h3>
+                    <p>Platform informasi properti dengan integrasi WhatsApp untuk menghubungi tim penjualan</p>
                     <span class="portfolio-category">Static Website</span>
                 </div>
             </div>
@@ -973,8 +973,8 @@
             <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1"  data-category="website">
                 <img src="{{asset('assets/portfolio/web-sekolah.png')}}" alt="School Website">
                 <div class="portfolio-info">
-                    <h3>School Website</h3>
-                    <p>Educational institution website with curriculum information, activities, and online registration</p>
+                 <h3>Situs Web Sekolah</h3>
+                    <p>Situs web institusi pendidikan dengan informasi kurikulum, kegiatan, dan pendaftaran online</p>
                     <span class="portfolio-category">Static Website</span>
                 </div>
             </div>
@@ -982,8 +982,8 @@
             <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1"  data-category="website">
                 <img src="{{asset('assets/portfolio/Web-Ecommerce.png')}}" alt="E-commerce Website">
                 <div class="portfolio-info">
-                    <h3>E-commerce Platform</h3>
-                    <p>Online shopping website with attractive design and automated payment system</p>
+                   <h3>Platform E-commerce</h3>
+                    <p>Situs web belanja online dengan desain menarik dan sistem pembayaran otomatis</p>
                     <span class="portfolio-category">Static Website</span>
                 </div>
             </div>
@@ -991,8 +991,8 @@
             <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1"  data-category="website">
                 <img src="{{asset('assets/portfolio/webcostum.png')}}" alt="Custom Business Website">
                 <div class="portfolio-info">
-                    <h3>Custom Business Application</h3>
-                    <p>Web-based business management system for data handling, finance, inventory, and employee monitoring</p>
+                      <h3>Aplikasi Bisnis Kustom</h3>
+                    <p>Sistem manajemen bisnis berbasis web untuk penanganan data, keuangan, inventaris, dan pemantauan karyawan</p>
                     <span class="portfolio-category">Web Application</span>
                 </div>
             </div>
@@ -1001,8 +1001,8 @@
                  <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1"  data-category="ui-ux">
                 <img src="{{asset('assets/portfolio/company-profile-wipin.png')}}" alt="Company Profile Website">
                 <div class="portfolio-info">
-                    <h3>Corporate Website</h3>
-                    <p>Professional company profile website with modern design and responsive layout</p>
+                         <h3>Situs Web Korporat</h3>
+                    <p>Situs web profil perusahaan profesional dengan desain modern dan tata letak responsif</p>
                     <span class="portfolio-category">UI/UX Design</span>
                 </div>
             </div>
@@ -1010,8 +1010,8 @@
             <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1"  data-category="ui-ux">
                 <img src="{{asset('assets/portfolio/perpustakaan-website-wipin.png')}}" alt="Library Website">
                 <div class="portfolio-info">
-                    <h3>Library Management System</h3>
-                    <p>Comprehensive website for library catalog management with user-friendly interface</p>
+                    <h3>Sistem Manajemen Perpustakaan</h3>
+                    <p>Situs web komprehensif untuk manajemen katalog perpustakaan dengan antarmuka yang mudah digunakan</p>
                     <span class="portfolio-category">UI/UX Design</span>
                 </div>
             </div>
@@ -1019,8 +1019,8 @@
             <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1"  data-category="ui-ux">
                 <img src="{{asset('assets/portfolio/kuliner-website-wipin.png')}}" alt="Culinary Website">
                 <div class="portfolio-info">
-                    <h3>Culinary Website</h3>
-                    <p>Attractive food and restaurant website with online menu and reservation system</p>
+                    <h3>Situs Web Kuliner</h3>
+                    <p>Situs web makanan dan restoran yang menarik dengan menu online dan sistem reservasi</p>
                     <span class="portfolio-category">UI/UX Design</span>
                 </div>
             </div>
@@ -1028,8 +1028,8 @@
             <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1"  data-category="ui-ux">
                 <img src="{{asset('assets/portfolio/travel-website-wipin.png')}}" alt="Travel Website">
                 <div class="portfolio-info">
-                    <h3>Travel Agency Website</h3>
-                    <p>Engaging travel website with tour packages, booking system, and destination information</p>
+                    <h3>Situs Web Agen Perjalanan</h3>
+                    <p>Situs web perjalanan yang menarik dengan paket tur, sistem pemesanan, dan informasi destinasi</p>
                     <span class="portfolio-category">UI/UX Design</span>
                 </div>
             </div>
@@ -1037,8 +1037,8 @@
             <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1"  data-category="ui-ux">
                 <img src="{{asset('assets/portfolio/web-starbuks-wipin.png')}}" alt="Coffee Shop Website">
                 <div class="portfolio-info">
-                    <h3>Coffee Shop Website</h3>
-                    <p>Modern website for a coffee shop chain with product showcase and store locator</p>
+                     <h3>Situs Web Kedai Kopi</h3>
+                    <p>Situs web modern untuk rantai kedai kopi dengan etalase produk dan pencari lokasi toko</p>
                     <span class="portfolio-category">UI/UX Design</span>
                 </div>
             </div>
@@ -1046,8 +1046,8 @@
     <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1" data-category="web-app">
     <img src="{{asset('portfolio/web-app/sipena.png')}}" alt="Sipena School Management System">
    <div class="portfolio-info">
-        <h3>Sipena - Digital School Management System</h3>
-        <p>Integrated digital platform for schools with mobile applications and web dashboards for digitizing learning processes and school administration</p>
+         <h3>Sipena - Sistem Manajemen Sekolah Digital</h3>
+        <p>Platform digital terintegrasi untuk sekolah dengan aplikasi seluler dan dasbor web untuk mendigitalkan proses pembelajaran dan administrasi sekolah</p>
         <span class="portfolio-category">Web Application</span>
           <button class="btn-project-detail" data-project="sipena">See Project Details</button>
     </div>
@@ -1056,8 +1056,8 @@
 <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1" data-category="web-app">
 <img src="{{asset('portfolio/web-app/tryoutcpns.png')}}" alt="CPNS Tryout & Learning System">
 <div class="portfolio-info">
-<h3>CPNS Tryout - Learning & Exam Platform</h3>
-<p>A CPNS exam preparation platform with a real-time tryout system, complete learning materials, and in-depth result analysis</p>
+<h3>Tryout CPNS - Platform Pembelajaran & Ujian</h3>
+<p>Platform persiapan ujian CPNS dengan sistem tryout waktu nyata, materi pembelajaran lengkap, dan analisis hasil mendalam</p>
 <span class="portfolio-category">Web Application</span>
 <button class="btn-project-detail" data-project="cpns-tryout">See Project Details</button>
 </div>
@@ -1066,8 +1066,8 @@
 <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1" data-category="web-app">
 <img src="{{asset('portfolio/web-app/merawatindonesia.png')}}" alt="MerawatIndonesia Donation Platform">
 <div class="portfolio-info">
-<h3>Merawat Indonesia - Digital Donation Platform</h3>
-<p>A transparent donation platform with fundraising features and an automatic payment system integrated with Facebook & TikTok Pixel</p>
+<h3>Merawat Indonesia - Platform Donasi Digital</h3>
+<p>Platform donasi transparan dengan fitur penggalangan dana dan sistem pembayaran otomatis yang terintegrasi dengan Facebook & TikTok Pixel</p>
 <span class="portfolio-category">Web Application</span>
 <button class="btn-project-detail" data-project="merawat-indonesia">See Project Details</button>
 </div>
@@ -1076,8 +1076,8 @@
 <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1" data-category="web-app">
 <img src="{{asset('portfolio/web-app/aloja.png')}}" alt="Aloja Investment Platform">
 <div class="portfolio-info">
-<h3>Aloja - MSME & Investor Platform</h3>
-<p>A digital platform that connects MSMEs with investors through mentoring classes, pitching, and an integrated payment system</p>
+<h3>Aloja - Platform UMKM & Investor</h3>
+<p>Platform digital yang menghubungkan UMKM dengan investor melalui kelas mentoring, pitching, dan sistem pembayaran terintegrasi</p>
 <span class="portfolio-category">Web Application</span>
 <button class="btn-project-detail" data-project="aloja">See Project Details</button>
 </div>
@@ -1086,8 +1086,8 @@
 <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1" data-category="web-app">
 <img src="{{asset('portfolio/web-app/epic.png')}}" alt="Epic License Management System">
 <div class="portfolio-info">
-<h3>Epic - Digital Licensing Services</h3>
-<p>A trusted digital licensing system with a mobile and web application for real-time tracking and direct chat with officers</p>
+<h3>Epic - Layanan Perizinan Digital</h3>
+<p>Sistem perizinan digital terpercaya dengan aplikasi seluler dan web untuk pelacakan waktu nyata dan obrolan langsung dengan petugas</p>
 <span class="portfolio-category">Web Application</span>
 <button class="btn-project-detail" data-project="epic">See Project Details</button>
 </div>
@@ -1097,8 +1097,8 @@
 <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1" data-category="web-app">
 <img src="{{asset('portfolio/web-app/esellexpress.png')}}" alt="Esellexpress Reseller Platform">
 <div class="portfolio-info">
-<h3>Esellexpress - Reseller & E-commerce Platform</h3>
-<p>A multi-role e-commerce system with a digital wallet for resellers, sellers, and buyers with integrated email notifications</p>
+<h3>Esellexpress - Platform Reseller & E-commerce</h3>
+<p>Sistem e-commerce multi-peran dengan dompet digital untuk reseller, penjual, dan pembeli dengan notifikasi email terintegrasi</p>
 <span class="portfolio-category">Web Application</span>
 <button class="btn-project-detail" data-project="esellexpress">See Project Details</button>
 </div>
@@ -1117,8 +1117,8 @@
             <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1"  data-category="ui-ux">
                 <img src="{{asset('assets/portfolio/buku-online-app-wipin.png')}}" alt="Online Book App">
                 <div class="portfolio-info">
-                    <h3>E-Book Mobile App</h3>
-                    <p>User-friendly mobile application for reading and managing digital books</p>
+                    <h3>Aplikasi Seluler E-Book</h3>
+                    <p>Aplikasi seluler yang mudah digunakan untuk membaca dan mengelola buku digital</p>
                     <span class="portfolio-category">UI/UX Design</span>
                 </div>
             </div>
@@ -1126,8 +1126,8 @@
             <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1"  data-category="ui-ux">
                 <img src="{{asset('assets/portfolio/dashboard-design-wipin.png')}}" alt="Dashboard Design">
                 <div class="portfolio-info">
-                    <h3>Analytics Dashboard</h3>
-                    <p>Intuitive dashboard interface with data visualization for business analytics</p>
+                    <h3>Dasbor Analitik</h3>
+                    <p>Antarmuka dasbor intuitif dengan visualisasi data untuk analitik bisnis</p>
                     <span class="portfolio-category">UI/UX Design</span>
                 </div>
             </div>
@@ -1135,8 +1135,8 @@
             <div class="col-md-3 mx-1 col-sm-6 portfolio-item section-dark-color1"  data-category="ui-ux">
                 <img src="{{asset('assets/portfolio/music-design-app-wipin.png')}}" alt="Music App Design">
                 <div class="portfolio-info">
-                    <h3>Music Streaming App</h3>
-                    <p>Sleek and intuitive music player app with personalized recommendations</p>
+                   <h3>Aplikasi Streaming Musik</h3>
+                    <p>Aplikasi pemutar musik yang ramping dan intuitif dengan rekomendasi yang dipersonalisasi</p>
                     <span class="portfolio-category">UI/UX Design</span>
                 </div>
             </div>
@@ -1164,8 +1164,8 @@
                     </div>
                 </div>
                 <div class="portfolio-info">
-                    <h3>Burger Bangor Brand Identity</h3>
-                    <p>Complete brand design including logo, menu, and promotional materials for burger restaurant</p>
+                    <h3>Identitas Merek Burger Bangor</h3>
+                    <p>Desain merek lengkap termasuk logo, menu, dan materi promosi untuk restoran burger</p>
                     <span class="portfolio-category">Graphic Design</span>
                 </div>
             </div>
@@ -1187,8 +1187,8 @@
                     </div>
                 </div>
                 <div class="portfolio-info">
-                    <h3>Bandung City Tourism Campaign</h3>
-                    <p>Tourism promotional materials showcasing Bandung's culture and attractions</p>
+                 <h3>Kampanye Pariwisata Kota Bandung</h3>
+                    <p>Materi promosi pariwisata yang menampilkan budaya dan daya tarik Bandung</p>
                     <span class="portfolio-category">Graphic Design</span>
                 </div>
             </div>
@@ -1208,8 +1208,8 @@
                     </div>
                 </div>
                 <div class="portfolio-info">
-                    <h3>Jogja City Heritage Design</h3>
-                    <p>Cultural heritage promotional design highlighting Yogyakarta's historical landmarks</p>
+                <h3>Desain Warisan Kota Jogja</h3>
+                    <p>Desain promosi warisan budaya yang menyoroti landmark bersejarah Yogyakarta</p>
                     <span class="portfolio-category">Graphic Design</span>
                 </div>
             </div>
@@ -1237,8 +1237,8 @@
                     </div>
                 </div>
                 <div class="portfolio-info">
-                    <h3>RSUD KRT Hospital Branding</h3>
-                    <p>Complete healthcare branding package including signage, forms, and promotional materials</p>
+                    <h3>Branding Rumah Sakit RSUD KRT</h3>
+                    <p>Paket branding layanan kesehatan lengkap termasuk papan nama, formulir, dan materi promosi</p>
                     <span class="portfolio-category">Graphic Design</span>
                 </div>
             </div>
@@ -1266,8 +1266,8 @@
                     </div>
                 </div>
                 <div class="portfolio-info">
-                    <h3>Restaurant Brand Identity</h3>
-                    <p>Traditional restaurant branding with menu design, signage, and promotional materials</p>
+                 <h3>Identitas Merek Restoran</h3>
+                    <p>Branding restoran tradisional dengan desain menu, papan nama, dan materi promosi</p>
                     <span class="portfolio-category">Graphic Design</span>
                 </div>
             </div>
@@ -1289,8 +1289,8 @@
                     </div>
                 </div>
                 <div class="portfolio-info">
-                    <h3>Surabaya City Promotion</h3>
-                    <p>Modern city branding campaign showcasing Surabaya's development and attractions</p>
+                  <h3>Promosi Kota Surabaya</h3>
+                    <p>Kampanye branding kota modern yang menampilkan perkembangan dan daya tarik Surabaya</p>
                     <span class="portfolio-category">Graphic Design</span>
                 </div>
             </div>
@@ -1310,8 +1310,8 @@
                     </div>
                 </div>
                 <div class="portfolio-info">
-                    <h3>Instagram Content Strategy</h3>
-                    <p>Cohesive and visually appealing Instagram feed design for brand identity</p>
+                   <h3>Strategi Konten Instagram</h3>
+                    <p>Desain feed Instagram yang kohesif dan menarik secara visual untuk identitas merek</p>
                     <span class="portfolio-category">Graphic Design</span>
                 </div>
             </div>
@@ -1322,8 +1322,8 @@
 <section class="live-portfolio-section">
     <div class="container live-portfolio-container">
         <div class="section-title">
-            <h2>Live Portfolio Websites</h2>
-            <p>Explore our active portfolio websites that are currently running and serving real businesses across various industries.</p>
+          <h2>Situs Web Portofolio Aktif</h2>
+            <p>Jelajahi situs web portofolio aktif kami yang saat ini berjalan dan melayani bisnis nyata di berbagai industri.</p>
         </div>
         
         <div class="portfolio-links-grid">
@@ -1547,8 +1547,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center mb-4">
-                <h2>Trusted By Various Industries</h2>
-                <p>Companies from different sectors have placed their trust in Wipin to deliver high-quality digital solutions.</p>
+             <h2>Dipercaya Oleh Berbagai Industri</h2>
+                <p>Perusahaan dari berbagai sektor telah menaruh kepercayaan mereka pada Wipin untuk memberikan solusi digital berkualitas tinggi.</p>
             </div>
         </div>
         <div class="row">
@@ -1563,9 +1563,9 @@
 <div class="container section-dark-color">
 <div class="row">
 <div class="text-center text-md-start mb-5">
-<p class="title-main mb-0 title">Google Business Testimonials</p>
+<p class="title-main mb-0 title">Testimoni Google Business</p>
 <h2 class="mt-1">
-Clients are Very Satisfied With<br />the Website Results
+Klien Sangat Puas Dengan<br />Hasil Website
 </h2>
 </div>
 </div>
@@ -1573,75 +1573,75 @@ Clients are Very Satisfied With<br />the Website Results
 <div class="card-item  section-dark-color1 item">
 <div class="row">
 <div class="col-3">
-<img src="{{asset('assets/images/avatar1.svg')}}" width="100" height="100" class="avatar" alt="profile testimoni" />
+<img src="{{asset('assets/images/avatar1.svg')}}" width="100" height="100" class="avatar" alt="profil testimoni" />
 </div>
 <div class="col-9 pl-2">
 <h3>Aditya</h3>
-<small>Entrepreneur</small>
+<small>Pengusaha</small>
 </div>
 </div>
 <div class="row pt-4">
 <p>
-Never disappointed ordering designs here, because the results always
-exceed expectations, they are amazingly good.
+Tidak pernah kecewa pesan desain di sini, karena hasilnya selalu
+di luar ekspektasi, bagusnya kebangetan.
 </p>
-<img src="{{asset('assets/icons/stars.svg')}}" width="300" height="100" class="star" alt="review testimoni wipin" />
+<img src="{{asset('assets/icons/stars.svg')}}" width="300" height="100" class="star" alt="ulasan testimoni wipin" />
 </div>
 </div>
 <div class="card-item  section-dark-color1 item">
 <div class="row">
 <div class="col-3">
-<img src="{{asset('assets/images/avatar2.svg')}}" width="100" height="100" class="avatar" alt="profile testimoni" />
+<img src="{{asset('assets/images/avatar2.svg')}}" width="100" height="100" class="avatar" alt="profil testimoni" />
 </div>
 <div class="col-9 pl-2">
 <h3>Daffa Darma</h3>
-<small>Student</small>
+<small>Mahasiswa</small>
 </div>
 </div>
 <div class="row pt-4">
 <p>
-Thanks, Wipin, my college assignments are done. I was confused about how to make them, and the process was also fast.
+Terimakasih Wipin, tugas kuliahku jadi. Sempat bingung buatnya gimana, pengerjaannya juga cepat.
 </p>
-<img src="{{asset('assets/icons/stars.svg')}}" width="300" height="100" class="star" alt="review testimoni wipin" />
+<img src="{{asset('assets/icons/stars.svg')}}" width="300" height="100" class="star" alt="ulasan testimoni wipin" />
 </div>
 </div>
 <div class="card-item  section-dark-color1 item">
 <div class="row">
 <div class="col-3">
-<img src="{{asset('assets/images/avatar3.svg')}}" width="100" height="100" class="avatar" alt="profile testimoni" />
+<img src="{{asset('assets/images/avatar3.svg')}}" width="100" height="100" class="avatar" alt="profil testimoni" />
 </div>
 <div class="col-9 pl-2">
 <h3>Salsabila</h3>
-<small>Student</small>
+<small>Mahasiswa</small>
 </div>
 </div>
 <div class="row pt-4">
 <p>
-I could choose the design I liked, and it was super fast. My portfolio website was done in a day, thanks Wipin.
+Bisa pilih desain yang aku suka, dan super cepat. Website portofolioku selesai dalam sehari, terimakasih Wipin.
 </p>
-<img src="{{asset('assets/icons/stars.svg')}}" width="300" height="100" class="star" alt="review testimoni wipin" />
+<img src="{{asset('assets/icons/stars.svg')}}" width="300" height="100" class="star" alt="ulasan testimoni wipin" />
 </div>
 </div>
 <div class="card-item  section-dark-color1 item">
 <div class="row">
 <div class="col-3">
-<img src="{{asset('assets/images/avatar4.svg')}}" width="100" height="100" class="avatar" alt="profile testimoni" />
+<img src="{{asset('assets/images/avatar4.svg')}}" width="100" height="100" class="avatar" alt="profil testimoni" />
 </div>
 <div class="col-9 pl-2">
 <h3>Andre Kurniawan</h3>
-<small>Entrepreneur</small>
+<small>Pengusaha</small>
 </div>
 </div>
 <div class="row pt-4">
 <p>
-I ordered a website and didn't understand anything, so I consulted first and then was given the best advice.
+Pesan website tidak mengerti apa-apa, jadi konsultasi dulu kemudian dikasih saran yang terbaik.
 </p>
-<img src="{{asset('assets/icons/stars.svg')}}" width="300" height="100" class="star" alt="review testimoni wipin" />
+<img src="{{asset('assets/icons/stars.svg')}}" width="300" height="100" class="star" alt="ulasan testimoni wipin" />
 </div>
 </div>
 </div>
 <div class="justify-content-center d-flex">
-<a href="https://g.co/kgs/PP8cZD" target="_blank" class="btn-main mt-3">Add Testimonial</a>
+<a href="https://g.co/kgs/PP8cZD" target="_blank" class="btn-main mt-3">Tambah Testimoni</a>
 </div>
 <img src="{{asset('assets/images/testimoniDesain2.png')}}" class="design1" alt="desain testimoni" />
 <img src="{{asset('assets/images/testimoniDesain1.png')}}" class="design2" alt="desain testimoni" />
@@ -1655,7 +1655,7 @@ I ordered a website and didn't understand anything, so I consulted first and the
 <div class="text-center mb-3">
 <p class="title-main title mb-0">FAQ</p>
 <h2 class="mt-1">
-Frequently Asked Questions <br> About Website Creation Services
+Pertanyaan yang Sering Diajukan <br> Tentang Jasa Pembuatan Website
 </h2>
 </div>
 </div>
@@ -1665,30 +1665,29 @@ Frequently Asked Questions <br> About Website Creation Services
 <div class="accordion-item section-dark-color1">
 <h2 class="accordion-header" id="flush-headingOne">
 <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-How to use Wipin's services?
+Bagaimana cara menggunakan jasa Wipin?
 </button>
 </h2>
 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
 <div class="accordion-body">
 <p>
-Click <a href="#pricelist">Use Service</a> and click the button for each package, and you will be directed to a WA chat. Next, discussion, payment (DP/full payment), process, revisions, and finishing will be done according to the agreement.
+Klik <a href="#pricelist">Gunakan Layanan</a> dan klik tombol untuk setiap paket, dan Anda akan diarahkan ke obrolan WA. Selanjutnya, diskusi, pembayaran (DP/pembayaran penuh), pengerjaan, revisi, dan penyelesaian akan dilakukan sesuai kesepakatan.
 </p>
 </div>
 </div>
 </div>
-
-        <div class="accordion-item section-dark-color1">
+<div class="accordion-item section-dark-color1">
           <h2 class="accordion-header" id="flush-headingTwo">
             <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="true" aria-controls="flush-collapseTwo">
-              What about the payment system?
+              Bagaimana dengan sistem pembayaran?
             </button>
           </h2>
           <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <p>
-                We accept payments through Paypal, OVO, Dana, ShopeePay, Mandiri, and BRI. Payment can be made with two options: <br>
-                - Full payment <br>
-                - 50% down payment (DP) and the remainder can be paid when the project is finished.
+                Kami menerima pembayaran melalui Paypal, OVO, Dana, ShopeePay, Mandiri, dan BRI. Pembayaran dapat dilakukan dengan dua opsi: <br>
+                - Pembayaran penuh <br>
+                - Uang muka (DP) 50% dan sisanya dapat dibayarkan saat proyek selesai.
               </p>
             </div>
           </div>
@@ -1697,13 +1696,13 @@ Click <a href="#pricelist">Use Service</a> and click the button for each package
         <div class="accordion-item section-dark-color1">
           <h2 class="accordion-header" id="flush-headingThree">
             <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="true" aria-controls="flush-collapseThree">
-              What if the project is finished but there are revisions?
+              Bagaimana jika proyek sudah selesai tapi ada revisi?
             </button>
           </h2>
           <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <p>
-                We provide free revisions according to the selected package. If revisions exceed the specified limit, there will be an additional fee per-revision.
+                Kami memberikan revisi gratis sesuai dengan paket yang dipilih. Jika revisi melebihi batas yang ditentukan, akan ada biaya tambahan per-revisi.
               </p>
             </div>
           </div>
@@ -1712,13 +1711,13 @@ Click <a href="#pricelist">Use Service</a> and click the button for each package
         <div class="accordion-item section-dark-color1">
           <h2 class="accordion-header" id="flush-headingFour">
             <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="true" aria-controls="flush-collapseFour">
-              How long does it take to complete a project?
+              Berapa lama waktu pengerjaan proyek?
             </button>
           </h2>
           <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <p>
-                The work can be completed in as fast as 1 day, but it depends on the difficulty level of the project. Usually, a project is finished within 2-4 days.
+                Pengerjaan dapat diselesaikan secepat 1 hari, tetapi tergantung pada tingkat kesulitan proyek. Biasanya, sebuah proyek selesai dalam 2-4 hari.
               </p>
             </div>
           </div>
@@ -1727,13 +1726,13 @@ Click <a href="#pricelist">Use Service</a> and click the button for each package
         <div class="accordion-item section-dark-color1">
           <h2 class="accordion-header" id="flush-heading5">
             <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="true" aria-controls="flush-collapse5">
-              What Technology Is Used for Website Creation?
+              Teknologi Apa yang Digunakan untuk Pembuatan Website?
             </button>
           </h2>
           <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <p>
-                For the Small, Medium, and Premium Packages, we use Wordpress CMS to speed up the creation process and facilitate SEO on each website page. For custom web development to manage data, we use technologies such as Laravel, React, Bootstrap, and Tailwind, adapting to your system needs. You can also request other technologies.
+                Untuk Paket Small, Medium, dan Premium, kami menggunakan Wordpress CMS untuk mempercepat proses pembuatan dan memfasilitasi SEO pada setiap halaman website. Untuk pengembangan web kustom untuk mengelola data, kami menggunakan teknologi seperti Laravel, React, Bootstrap, dan Tailwind, menyesuaikan dengan kebutuhan sistem Anda. Anda juga dapat meminta teknologi lain.
               </p>
             </div>
           </div>
@@ -1742,13 +1741,13 @@ Click <a href="#pricelist">Use Service</a> and click the button for each package
         <div class="accordion-item section-dark-color1">
           <h2 class="accordion-header" id="flush-heading6">
             <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="true" aria-controls="flush-collapse6">
-              What is a Domain?
+              Apa itu Domain?
             </button>
           </h2>
           <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <p>
-                A domain is the address name used to access your website on the internet, such as `www.example.com`. We provide domains with various extensions according to the chosen package.
+                Domain adalah nama alamat yang digunakan untuk mengakses website Anda di internet, seperti `www.example.com`. Kami menyediakan domain dengan berbagai ekstensi sesuai dengan paket yang dipilih.
               </p>
             </div>
           </div>
@@ -1757,13 +1756,13 @@ Click <a href="#pricelist">Use Service</a> and click the button for each package
         <div class="accordion-item section-dark-color1">
           <h2 class="accordion-header" id="flush-heading100">
             <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse100" aria-expanded="true" aria-controls="flush-collapse100">
-              What is Hosting?
+              Apa itu Hosting?
             </button>
           </h2>
           <div id="flush-collapse100" class="accordion-collapse collapse" aria-labelledby="flush-heading100" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <p>
-                Hosting is a service that provides space on a server to store your website files and data so that they can be accessed online. We offer hosting in our packages, with or without cPanel login access.
+                Hosting adalah layanan yang menyediakan ruang di server untuk menyimpan file dan data website Anda agar dapat diakses secara online. Kami menawarkan hosting dalam paket kami, dengan atau tanpa akses login cPanel.
               </p>
             </div>
           </div>
@@ -1775,13 +1774,13 @@ Click <a href="#pricelist">Use Service</a> and click the button for each package
         <div class="accordion-item section-dark-color1">
           <h2 class="accordion-header" id="flush-heading7">
             <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="true" aria-controls="flush-collapse7">
-              What is a Business Email?
+              Apa itu Email Bisnis?
             </button>
           </h2>
           <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <p>
-                A business email is an email address that uses your company's domain, for example, `name@yourdomain.com`. This gives a professional impression and increases customer trust.
+                Email bisnis adalah alamat email yang menggunakan domain perusahaan Anda, contohnya, `nama@domainanda.com`. Ini memberikan kesan profesional dan meningkatkan kepercayaan pelanggan.
               </p>
             </div>
           </div>
@@ -1790,13 +1789,13 @@ Click <a href="#pricelist">Use Service</a> and click the button for each package
         <div class="accordion-item section-dark-color1">
           <h2 class="accordion-header" id="flush-heading8">
             <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="true" aria-controls="flush-collapse8">
-              What is a Responsive Web?
+              Apa itu Web Responsif?
             </button>
           </h2>
           <div id="flush-collapse8" class="accordion-collapse collapse" aria-labelledby="flush-heading8" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <p>
-                A responsive web is a website design that adjusts its appearance and layout to fit various screen sizes and devices, such as desktops, tablets, and mobile phones. This ensures an optimal user experience on all devices.
+                Web responsif adalah desain website yang menyesuaikan tampilan dan tata letaknya agar sesuai dengan berbagai ukuran layar dan perangkat, seperti desktop, tablet, dan ponsel. Ini memastikan pengalaman pengguna yang optimal di semua perangkat.
               </p>
             </div>
           </div>
@@ -1805,13 +1804,13 @@ Click <a href="#pricelist">Use Service</a> and click the button for each package
         <div class="accordion-item section-dark-color1">
           <h2 class="accordion-header" id="flush-heading9">
             <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse9" aria-expanded="true" aria-controls="flush-collapse9">
-              What is SSL Security?
+              Apa itu Keamanan SSL?
             </button>
           </h2>
           <div id="flush-collapse9" class="accordion-collapse collapse" aria-labelledby="flush-heading9" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <p>
-                SSL (Secure Sockets Layer) is a security protocol that encrypts data between the server and the visitor's browser to protect sensitive information. Your website will be marked with a padlock icon in the browser's address bar.
+                SSL (Secure Sockets Layer) adalah protokol keamanan yang mengenkripsi data antara server dan peramban pengunjung untuk melindungi informasi sensitif. Website Anda akan ditandai dengan ikon gembok di bilah alamat peramban.
               </p>
             </div>
           </div>
@@ -1820,13 +1819,13 @@ Click <a href="#pricelist">Use Service</a> and click the button for each package
         <div class="accordion-item section-dark-color1">
           <h2 class="accordion-header" id="flush-heading10">
             <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse10" aria-expanded="true" aria-controls="flush-collapse10">
-              What is SEO?
+              Apa itu SEO?
             </button>
           </h2>
           <div id="flush-collapse10" class="accordion-collapse collapse" aria-labelledby="flush-heading10" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <p>
-                SEO (Search Engine Optimization) is the process of optimizing your website to appear in search engine results like Google. This includes setting keywords, content, and other techniques to improve your website's visibility.
+                SEO (Search Engine Optimization) adalah proses mengoptimalkan website Anda agar muncul di hasil mesin pencari seperti Google. Ini termasuk mengatur kata kunci, konten, dan teknik lainnya untuk meningkatkan visibilitas website Anda.
               </p>
             </div>
           </div>
@@ -1835,13 +1834,13 @@ Click <a href="#pricelist">Use Service</a> and click the button for each package
         <div class="accordion-item section-dark-color1">
           <h2 class="accordion-header" id="flush-heading11">
             <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse11" aria-expanded="true" aria-controls="flush-collapse11">
-              What is Google Analytics?
+              Apa itu Google Analytics?
             </button>
           </h2>
           <div id="flush-collapse11" class="accordion-collapse collapse" aria-labelledby="flush-heading11" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <p>
-                Google Analytics is a web analytics tool that provides data about your website visitors, including the number of visitors, visit duration, and traffic sources. This helps you understand visitor behavior and measure your website's performance.
+                Google Analytics adalah alat analisis web yang menyediakan data tentang pengunjung website Anda, termasuk jumlah pengunjung, durasi kunjungan, dan sumber lalu lintas. Ini membantu Anda memahami perilaku pengunjung dan mengukur kinerja website Anda.
               </p>
             </div>
           </div>
@@ -1850,13 +1849,13 @@ Click <a href="#pricelist">Use Service</a> and click the button for each package
         <div class="accordion-item section-dark-color1">
           <h2 class="accordion-header" id="flush-heading12">
             <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse12" aria-expanded="true" aria-controls="flush-collapse12">
-              What is a Mockup Design?
+              Apa itu Desain Mockup?
             </button>
           </h2>
           <div id="flush-collapse12" class="accordion-collapse collapse" aria-labelledby="flush-heading12" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <p>
-                A mockup design is a visual representation of the website design when viewed on a mobile phone and desktop. We provide a mockup design once the website is finished, and you can publish it on social media as a story or post to show that you have a website using the mockup design we provide.
+                Desain mockup adalah representasi visual dari desain website saat dilihat di ponsel dan desktop. Kami menyediakan desain mockup setelah website selesai, dan Anda dapat memublikasikannya di media sosial sebagai cerita atau postingan untuk menunjukkan bahwa Anda memiliki website menggunakan desain mockup yang kami sediakan.
               </p>
             </div>
           </div>
@@ -1865,13 +1864,13 @@ Click <a href="#pricelist">Use Service</a> and click the button for each package
         <div class="accordion-item section-dark-color1">
           <h2 class="accordion-header" id="flush-heading13">
             <button class="accordion-button section-dark-color1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="true" aria-controls="flush-collapse13">
-              What is Google Ads?
+              Apa itu Google Ads?
             </button>
           </h2>
           <div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-heading13" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <p>
-                Google Ads is a paid advertising platform from Google that allows you to display ads in Google search results and on other websites. Ads can be customized based on keywords, location, and demographics to reach the right audience.
+                Google Ads adalah platform iklan berbayar dari Google yang memungkinkan Anda menampilkan iklan di hasil pencarian Google dan di website lain. Iklan dapat disesuaikan berdasarkan kata kunci, lokasi, dan demografi untuk menjangkau audiens yang tepat.
               </p>
             </div>
           </div>
@@ -1886,9 +1885,9 @@ Click <a href="#pricelist">Use Service</a> and click the button for each package
 <span id="pricelist"></span>
 <section id="contact-cta" class="py-5 section-dark-color">
     <div class="container text-center">
-        <h2>Ready to Start Your Project?</h2>
-        <p class="mb-4">Contact us today to discuss your ideas and requirements. We're here to help you bring your vision to life.</p>
-        <a href="https://wa.me/6285198330157" class="btn-main" target="_blank">Contact Us Now</a>
+        <h2>Siap Memulai Proyek Anda?</h2>
+        <p class="mb-4">Hubungi kami hari ini untuk mendiskusikan ide dan kebutuhan Anda. Kami di sini untuk membantu Anda mewujudkan visi Anda.</p>
+        <a href="https://wa.me/6285198330157" class="btn-main" target="_blank">Hubungi Kami Sekarang</a>
     </div>
 </section>
 @endsection
@@ -1896,162 +1895,162 @@ Click <a href="#pricelist">Use Service</a> and click the button for each package
 @push('script')
 <script>
 $(document).ready(function(){
-    // Project data
-     const projectData = {
+
+    const projectData = {
         'sipena': {
-            title: 'Sipena - Digital School Management System',
-            type: 'Education Technology Platform',
-            overview: 'Sipena is a comprehensive digital platform that integrates the entire school ecosystem through mobile applications and a web dashboard. This system enables the digitization of learning processes, school administration, and communication among education stakeholders to create a more efficient and modern learning environment.',
+            title: 'Sipena - Sistem Manajemen Sekolah Digital',
+            type: 'Platform Teknologi Pendidikan',
+            overview: 'Sipena adalah platform digital komprehensif yang mengintegrasikan seluruh ekosistem sekolah melalui aplikasi seluler dan dasbor web. Sistem ini memungkinkan digitalisasi proses pembelajaran, administrasi sekolah, dan komunikasi antar pemangku kepentingan pendidikan untuk menciptakan lingkungan belajar yang lebih efisien dan modern.',
             features: [
-                'Multi-platform system (Mobile + Web)',
-                'User role-based dashboard',
-                'Interactive learning media',
-                'Integrated digital payment system',
-                'Automatic book borrowing and returns',
-                'Teacher-student-parent communication portal',
-                'Academic reports and digital report cards',
-                'Schedule and attendance management',
-                'Online student permit system',
-                'Digital cooperative and canteen'
+                'Sistem multi-platform (Seluler + Web)',
+                'Dasbor berbasis peran pengguna',
+                'Media pembelajaran interaktif',
+                'Sistem pembayaran digital terintegrasi',
+                'Peminjaman dan pengembalian buku otomatis',
+                'Portal komunikasi guru-siswa-orang tua',
+                'Laporan akademik dan rapor digital',
+                'Manajemen jadwal dan absensi',
+                'Sistem perizinan siswa online',
+                'Koperasi dan kantin digital'
             ],
             techStack: ['Laravel', 'jQuery', 'Ajax', 'Bootstrap', 'MySQL', 'Firebase', 'REST API', 'Flutter'],
             users: [
-                'Admin - Comprehensive system and user management',
-                'Teacher - Management of classes, learning materials, and grading',
-                'Student - Access to materials, task submission, and viewing grades',
-                'School Cooperative - Product and transaction management',
-                'Canteen - Food ordering and payment system'
+                'Admin - Manajemen sistem dan pengguna yang komprehensif',
+                'Guru - Manajemen kelas, materi pembelajaran, dan penilaian',
+                'Siswa - Akses ke materi, pengumpulan tugas, dan melihat nilai',
+                'Koperasi Sekolah - Manajemen produk dan transaksi',
+                'Kantin - Sistem pemesanan dan pembayaran makanan'
             ],
             demoUrl: null,
-            demoNote: 'Private System - Available for institutional education clients'
+            demoNote: 'Sistem Privat - Tersedia untuk klien institusi pendidikan'
         },
         'cpns-tryout': {
-            title: 'CPNS Tryout - Learning & Exam Platform',
-            type: 'Online Learning & Exam Management System',
-            overview: 'An online learning and exam platform specifically designed for CPNS test preparation. This system provides complete learning materials, a comprehensive question bank, and a tryout feature with in-depth analysis to help candidates achieve their goal of passing the civil servant exam.',
+            title: 'Tryout CPNS - Platform Pembelajaran & Ujian',
+            type: 'Sistem Manajemen Pembelajaran & Ujian Online',
+            overview: 'Platform pembelajaran dan ujian online yang dirancang khusus untuk persiapan tes CPNS. Sistem ini menyediakan materi pembelajaran lengkap, bank soal yang komprehensif, dan fitur tryout dengan analisis mendalam untuk membantu para calon mencapai tujuan mereka dalam melewati ujian CPNS.',
             features: [
-                'Adaptive online exam engine with a timer',
-                'Comprehensive question bank management',
-                'Real-time exam simulation according to CPNS standards',
-                'Performance analysis and study recommendations',
-                'Individual learning progress tracking',
-                'Material categorization by topic',
-                'Responsive design for all devices',
-                'Automatic grading system with discussions',
-                'Permanently saved attempt history',
-                'Relevant YouTube video recommendations'
+                'Mesin ujian online adaptif dengan timer',
+                'Manajemen bank soal yang komprehensif',
+                'Simulasi ujian waktu nyata sesuai standar CPNS',
+                'Analisis performa dan rekomendasi belajar',
+                'Pelacakan kemajuan belajar individu',
+                'Kategorisasi materi berdasarkan topik',
+                'Desain responsif untuk semua perangkat',
+                'Sistem penilaian otomatis dengan pembahasan',
+                'Riwayat pengerjaan yang tersimpan permanen',
+                'Rekomendasi video YouTube yang relevan'
             ],
             techStack: ['Laravel', 'jQuery', 'Ajax', 'Bootstrap', 'MySQL', 'Chart.js', 'YouTube API'],
             users: [
-                'Admin - Platform management and system monitoring',
-                'User/Participant - Access to learning materials and CPNS tryouts'
+                'Admin - Manajemen platform dan pemantauan sistem',
+                'Pengguna/Peserta - Akses ke materi pembelajaran dan tryout CPNS'
             ],
             demoUrl: 'https://jenius-cpns.com/',
-            demoNote: 'An active platform serving thousands of CPNS tryout participants'
+            demoNote: 'Platform aktif yang melayani ribuan peserta tryout CPNS'
         },
         'merawat-indonesia': {
-            title: 'Merawat Indonesia - Digital Donation Platform',
-            type: 'Donation & Social Impact Management System',
-            overview: 'Merawat Indonesia is a digital donation platform that connects donors with verified charitable organizations across Indonesia. The system includes fundraising features, automatic and manual payments, and pixel integration for accurate tracking. This platform ensures transparency, accountability, and efficient distribution of aid to those in need.',
+            title: 'Merawat Indonesia - Platform Donasi Digital',
+            type: 'Sistem Manajemen Donasi & Dampak Sosial',
+            overview: 'Merawat Indonesia adalah platform donasi digital yang menghubungkan para donatur dengan lembaga-lembaga amal terverifikasi di seluruh Indonesia. Sistem ini dilengkapi dengan fitur penggalangan dana, pembayaran otomatis dan manual, serta integrasi pixel untuk pelacakan yang akurat. Platform ini menjamin transparansi, akuntabilitas, dan penyaluran bantuan yang efisien kepada mereka yang membutuhkan.',
             features: [
-                'Multi-role access control system',
-                'Integrated payment gateway with Tripay',
-                'Fundraising feature with a commission system',
-                'Automatic and manual payments',
-                'Real-time donation and campaign tracking',
-                'Verification system for fundraising institutions',
-                'Transparent fund disbursement reports',
-                'Facebook Pixel and TikTok Pixel integration',
-                'Automatic email notifications',
-                'Campaign and news management'
+                'Sistem kontrol akses multi-peran',
+                'Integrasi payment gateway dengan Tripay',
+                'Fitur penggalangan dana dengan sistem komisi',
+                'Pembayaran otomatis dan manual',
+                'Pelacakan donasi dan kampanye secara waktu nyata',
+                'Sistem verifikasi untuk lembaga penggalang dana',
+                'Laporan pencairan dana yang transparan',
+                'Integrasi Facebook Pixel dan TikTok Pixel',
+                'Notifikasi email otomatis',
+                'Manajemen kampanye dan berita'
             ],
             techStack: ['Laravel', 'jQuery', 'Ajax', 'Bootstrap', 'MySQL', 'Tripay Payment', 'Facebook Pixel', 'TikTok Pixel'],
             users: [
-                'Admin - Platform management, campaign verification, and transaction monitoring',
-                'Fundraiser - Campaign creation, news updates, and disbursement requests',
-                'Donor - Donating to campaigns and participating in fundraising programs'
+                'Admin - Manajemen platform, verifikasi kampanye, dan pemantauan transaksi',
+                'Penggalang Dana - Pembuatan kampanye, pembaruan berita, dan pengajuan pencairan dana',
+                'Donatur - Berdonasi pada kampanye dan berpartisipasi dalam program penggalangan dana'
             ],
             demoUrl: 'https://merawatindonesia.com/',
-            demoNote: 'An active platform that manages donations for various social campaigns in Indonesia'
+            demoNote: 'Platform aktif yang mengelola donasi untuk berbagai kampanye sosial di Indonesia'
         },
          'aloja': {
-            title: 'Aloja - MSME & Investor Platform',
-            type: 'Investment Facilitation & MSME Development System',
-            overview: 'Aloja is a digital platform that facilitates the relationship between MSMEs and investors for mutual business growth. The platform provides mentoring classes, pitching events, and an integrated payment system with Midtrans. MSMEs can grow their business through mentoring and investment opportunities, while investors can find potential investment opportunities.',
+            title: 'Aloja - Platform UMKM & Investor',
+            type: 'Sistem Fasilitasi Investasi & Pengembangan UMKM',
+            overview: 'Aloja adalah platform digital yang memfasilitasi hubungan antara UMKM dan investor untuk pertumbuhan bisnis yang saling menguntungkan. Platform ini menyediakan kelas mentoring, acara pitching, dan sistem pembayaran terintegrasi dengan Midtrans. UMKM dapat mengembangkan bisnisnya melalui bimbingan dan peluang investasi, sementara investor dapat menemukan peluang investasi yang potensial.',
             features: [
-                'Multi-role registration system (Admin, Basic MSME, Exclusive MSME, Investor)',
-                'Free and paid online mentoring classes',
-                'Pitching events for investment opportunities',
-                'Integrated payment gateway with Midtrans',
-                'Profile management for MSMEs',
-                'Live chat between Exclusive MSMEs and Investors',
-                'Analysis of business cash flow documents',
-                'Monitoring dashboard for all roles',
-                'Email notification system',
-                'Payment transaction management'
+                'Sistem registrasi multi-peran (Admin, UMKM Basic, UMKM Exclusive, Investor)',
+                'Kelas mentoring online gratis dan berbayar',
+                'Acara pitching untuk peluang investasi',
+                'Integrasi payment gateway dengan Midtrans',
+                'Manajemen profil untuk UMKM',
+                'Obrolan langsung antara UMKM Exclusive dan Investor',
+                'Analisis dokumen arus kas bisnis',
+                'Dasbor pemantauan untuk semua peran',
+                'Sistem notifikasi email',
+                'Manajemen transaksi pembayaran'
             ],
             techStack: ['Laravel', 'jQuery', 'Ajax', 'Bootstrap', 'MySQL', 'Midtrans Payment', 'Chart.js'],
             users: [
-                'Admin - Management of mentoring classes, pitching events, and monitoring all activities',
-                'Basic MSME - Access to free mentoring classes with a paid upgrade option',
-                'Exclusive MSME - Full access to mentoring, free pitching, and direct communication with investors',
-                'Investor - Searching for potential MSMEs based on business and background analysis'
+                'Admin - Manajemen kelas mentoring, acara pitching, dan pemantauan semua aktivitas',
+                'UMKM Basic - Akses ke kelas mentoring gratis dengan opsi upgrade berbayar',
+                'UMKM Exclusive - Akses penuh ke mentoring, pitching gratis, dan komunikasi langsung dengan investor',
+                'Investor - Mencari UMKM potensial berdasarkan analisis bisnis dan latar belakang'
             ],
             demoUrl: 'https://aloja.id',
-            demoNote: 'An active platform that connects MSMEs with investors in Indonesia'
+            demoNote: 'Platform aktif yang menghubungkan UMKM dengan investor di Indonesia'
         },
         'esellexpress': {
-            title: 'Esellexpress - Reseller & E-commerce Platform',
-            type: 'Multi-Role E-commerce System with a Digital Wallet',
-            overview: 'Esellexpress is an innovative e-commerce platform that enables a reseller, seller, and buyer system within one integrated ecosystem. The platform is equipped with a digital wallet for easy transactions, an email notification system, and comprehensive product management to support multi-level online businesses.',
+            title: 'Esellexpress - Platform Reseller & E-commerce',
+            type: 'Sistem E-commerce Multi-Peran dengan Dompet Digital',
+            overview: 'Esellexpress adalah platform e-commerce inovatif yang memungkinkan sistem reseller, penjual, dan pembeli dalam satu ekosistem terintegrasi. Platform ini dilengkapi dengan dompet digital untuk kemudahan transaksi, sistem notifikasi email, dan manajemen produk yang komprehensif untuk mendukung bisnis online bertingkat.',
             features: [
-                'Multi-role login system (Reseller, Seller, Buyer)',
-                'Integrated digital wallet for withdrawals and top-ups',
-                'Product and inventory management',
-                'Automatic payment and transaction system',
-                'Customizable online store for sellers',
-                'Automatic profit percentage system',
-                'Shipping and tracking management',
-                'Analytics dashboard for each role',
-                'Real-time email notifications',
-                'Multi-level commission system'
+                'Sistem login multi-peran (Reseller, Penjual, Pembeli)',
+                'Dompet digital terintegrasi untuk penarikan dan pengisian',
+                'Manajemen produk dan inventaris',
+                'Sistem pembayaran dan transaksi otomatis',
+                'Toko online yang dapat disesuaikan untuk penjual',
+                'Sistem persentase keuntungan otomatis',
+                'Manajemen pengiriman dan pelacakan',
+                'Dasbor analitik untuk setiap peran',
+                'Notifikasi email waktu nyata',
+                'Sistem komisi bertingkat'
             ],
             techStack: ['Laravel', 'jQuery', 'Ajax', 'Bootstrap', 'MySQL', 'Chart.js'],
             users: [
-                'Reseller - User management, product management, digital wallet payments, and transactions',
-                'Seller - Creating their own online store and selling products with a profit-sharing system',
-                'Buyer - Purchasing products from various available seller stores'
+                'Reseller - Manajemen pengguna, manajemen produk, pembayaran dompet digital, dan transaksi',
+                'Penjual - Membuat toko online sendiri dan menjual produk dengan sistem bagi hasil',
+                'Pembeli - Membeli produk dari berbagai toko penjual yang tersedia'
             ],
             demoUrl: 'https://esellexpress.com/',
-            demoNote: 'An active e-commerce platform with an integrated reseller system'
+            demoNote: 'Platform e-commerce aktif dengan sistem reseller terintegrasi'
         },
         'epic': {
-            title: 'Epic - Trusted Digital Licensing Services',
-            type: 'Digital Licensing Management System',
-            overview: 'Epic is a trusted digital service for handling various types of licensing with a more instant and efficient system. The platform is available as a website and a mobile application, equipped with real-time tracking features, live chat with officers, and the convenience of downloading and printing license documents.',
+            title: 'Epic - Layanan Perizinan Digital Terpercaya',
+            type: 'Sistem Manajemen Perizinan Digital',
+            overview: 'Epic adalah layanan digital terpercaya untuk mengurus berbagai jenis perizinan dengan sistem yang lebih instan dan efisien. Platform ini tersedia dalam bentuk website dan aplikasi seluler, dilengkapi dengan fitur pelacakan waktu nyata, obrolan langsung dengan petugas, dan kemudahan mengunduh serta mencetak dokumen perizinan.',
             features: [
-                'Multi-platform system (Website + Mobile App)',
-                'Online license data correction',
-                'Real-time license status tracking',
-                'Download and print license documents',
-                'Live chat with relevant officers',
-                'User role-based dashboard',
-                'License progress notification system',
-                'Document requirement upload',
-                'License application history',
-                'Document verification and audit system'
+                'Sistem multi-platform (Website + Aplikasi Seluler)',
+                'Koreksi data perizinan online',
+                'Pelacakan status perizinan secara waktu nyata',
+                'Mengunduh dan mencetak dokumen perizinan',
+                'Obrolan langsung dengan petugas terkait',
+                'Dasbor berbasis peran pengguna',
+                'Sistem notifikasi kemajuan perizinan',
+                'Unggah dokumen persyaratan',
+                'Riwayat pengajuan perizinan',
+                'Sistem verifikasi dan audit dokumen'
             ],
             techStack: ['Laravel', 'jQuery', 'Ajax', 'Bootstrap', 'MySQL', 'Flutter'],
             users: [
-                'Admin - System management and overall monitoring',
-                'Operator - Input and processing of license data',
-                'Verifier - Verification of document completeness and correctness',
-                'Auditor - Audit and validation of the licensing process',
-                'Surveyor - Field survey for certain types of licenses',
-                'Applicant - Submission and tracking of license status'
+                'Admin - Manajemen sistem dan pemantauan secara keseluruhan',
+                'Operator - Input dan pemrosesan data perizinan',
+                'Verifier - Verifikasi kelengkapan dan kebenaran dokumen',
+                'Auditor - Audit dan validasi proses perizinan',
+                'Surveyor - Survei lapangan untuk jenis perizinan tertentu',
+                'Pemohon - Pengajuan dan pelacakan status perizinan'
             ],
             demoUrl: null,
-            demoNote: 'A private system for government agencies and institutions related to licensing'
+            demoNote: 'Sistem privat untuk instansi dan lembaga pemerintah terkait perizinan'
         }
     };
 

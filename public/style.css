@@ -99,6 +99,15 @@ section#header {
   border-radius: 3px;
   font-weight: 700;
 }
+.btn-second {
+  padding: 15px 30px;
+  color: var(--main-color);
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: 700;
+}
 .w-35 {
   width: 35%;
 }

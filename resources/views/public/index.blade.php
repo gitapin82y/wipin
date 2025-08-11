@@ -34,6 +34,7 @@
               Penyedia jasa pembuatan website, jasa desain ui ux dan jasa desain grafis murah berkualitas mampu memenuhi kebutuhan untuk bisnis maupun personal
             </p>
             <a href="#pricelist" class="btn-main">Gunakan Jasa</a>
+            <a href="{{url('/portofolio')}}" class="btn-second section-dark-color1">Lihat Portofolio</a>
           </div>
           <div class="col-12 text-center text-lg-start">
             <div class="d-flex">

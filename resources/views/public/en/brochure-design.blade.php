@@ -97,7 +97,7 @@
           <li><img src="{{ asset('assets/icons/tick.svg') }}" class="me-2" alt="check">1 Design Option</li>
           <li><img src="{{ asset('assets/icons/tick.svg') }}" class="me-2" alt="check">2 Revisions <small class="fw-light">(1 minor & 1 major)</small></li>
           <li><img src="{{ asset('assets/icons/tick.svg') }}" class="me-2" alt="check">1-2 Days</li>
-          <li><img src="{{ asset('assets/icons/cross.svg') }}" class="me-2" alt="cross">Master File CDR/AI</li>
+          <li><img src="{{ asset('assets/icons/cross.svg') }}" class="me-2" alt="cross">Master File</li>
           <li><img src="{{ asset('assets/icons/tick.svg') }}" class="me-2" alt="check">Export JPG / PNG</li>
           </ul>
           <a href="https://api.whatsapp.com/send?phone=6285198330157&text=Hello%20Admin%20I%20Want%20To%20Order%20Brochure%20Design%20Services%20Package%20A" class="btn-main mt-4" target="_blank">Order Now</a>
@@ -110,7 +110,7 @@
           <li><img src="{{ asset('assets/icons/tick.svg') }}" class="me-2" alt="check">2 Design Options</li>
           <li><img src="{{ asset('assets/icons/tick.svg') }}" class="me-2" alt="check">3 Revisions <small class="fw-light">(2 minor & 1 major)</small></li>
           <li><img src="{{ asset('assets/icons/tick.svg') }}" class="me-2" alt="check">1-2 Days</li>
-          <li><img src="{{ asset('assets/icons/tick.svg') }}" class="me-2" alt="check">Master File CDR/AI</li>
+          <li><img src="{{ asset('assets/icons/tick.svg') }}" class="me-2" alt="check">Master File</li>
           <li><img src="{{ asset('assets/icons/tick.svg') }}" class="me-2" alt="check">Export JPG / PNG</li>
           </ul>
           <a href="https://api.whatsapp.com/send?phone=6285198330157&text=Hello%20Admin%20I%20Want%20To%20Order%20Brochure%20Design%20Services%20Package%20B" class="btn-main mt-4" target="_blank">Order Now</a>

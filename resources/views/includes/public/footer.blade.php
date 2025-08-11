@@ -7,12 +7,7 @@
           alt="logo wipin" />
       </div>
       <div class="col-md-5 col-12 pt-3 text-center pb-2">
-        <p>Copyright 2025 Built With Wipin</p>
-        @if ($lang === 'en')
-          <p><small>Available in: <a href="{{ route('language.switch', ['lang' => 'id', 'page' => $page ?? 'home']) }}">Bahasa Indonesia</a></small></p>
-        @else
-          <p><small>Tersedia dalam: <a href="{{ route('language.switch', ['lang' => 'en', 'page' => $page ?? 'home']) }}">English</a></small></p>
-        @endif
+        <p>© <?php echo date('Y'); ?> PT Wipin Tech Group</p>
       </div>
       <div class="col-lg-3 col-md-4 col-8 mx-auto py-2">
         <div class="d-flex justify-content-around sosmed">

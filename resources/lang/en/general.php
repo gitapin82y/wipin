@@ -34,7 +34,7 @@ return [
     'logo_design' => 'Logo Design',
     'banner_design' => 'Banner Design',
     'brochure_design' => 'Brochure Design',
-    'instagram_feed_design' => 'Instagram Feed Design',
+    'instagram_feed_design' => 'IG Feed Design',
     'envelope_design' => 'Envelope Design',
     'tshirt_design' => 'T-Shirt Design',
     'packaging_design' => 'Packaging Design',

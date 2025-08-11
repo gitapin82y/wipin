@@ -34,6 +34,7 @@
               Professional website development, UI/UX design, and graphic design services at affordable prices, meeting both business and personal needs
             </p>
             <a href="#pricelist" class="btn-main">Use Our Services</a>
+            <a href="{{url('/en/portfolio')}}" class="btn-second section-dark-color1">See Portfolio</a>
           </div>
           <div class="col-12 text-center text-lg-start">
             <div class="d-flex">

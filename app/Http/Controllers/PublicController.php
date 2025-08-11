@@ -23,7 +23,7 @@ class PublicController extends Controller
             'jasa-desain-kemasan' => 'packaging-design',
             'jasa-desain-poster' => 'poster-design',
             'jasa-desain-sertifikat' => 'certificate-design',
-            'portfolio' => 'portfolio',
+            'portofolio' => 'portfolio',
             'blog' => 'blog'
         ],
         'en' => [
@@ -39,7 +39,7 @@ class PublicController extends Controller
             'packaging-design' => 'jasa-desain-kemasan',
             'poster-design' => 'jasa-desain-poster',
             'certificate-design' => 'jasa-desain-sertifikat',
-            'portfolio' => 'portfolio',
+            'portfolio' => 'portofolio',
             'blog' => 'blog'
         ]
     ];
@@ -58,7 +58,7 @@ class PublicController extends Controller
             'jasa-desain-kemasan',
             'jasa-desain-poster',
             'jasa-desain-sertifikat',
-            'portfolio',
+            'portofolio',
             'blog'
         ],
         'en' => [

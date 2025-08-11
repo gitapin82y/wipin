@@ -103,7 +103,7 @@
           <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check">3 feed designs</li>
           <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check">2 Revisions <small class="fw-light">(1 minor & 1 major)</small></li>
           <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check">1-2 Days</li>
-          <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="cross">Master File CDR/AI</li>
+          <li><img src="{{asset('assets/icons/cross.svg')}}" class="me-2" alt="cross">Master File</li>
           <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check">Export JPG / PNG</li>
           </ul>
           <a href="
@@ -119,7 +119,7 @@
           <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check">6 feed designs</li>
           <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check">3 Revisions <small class="fw-light">(2 minor & 1 major)</small></li>
           <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check">1-2 Days</li>
-          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check">Master File CDR/AI</li>
+          <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check">Master File</li>
           <li><img src="{{asset('assets/icons/tick.svg')}}" class="me-2" alt="check">Export JPG / PNG</li>
           </ul>
           <a href="

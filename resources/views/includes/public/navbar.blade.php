@@ -78,7 +78,7 @@
                 </li>
             
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ $lang === 'en' ? route('show.en', 'portfolio') : route('show.id', 'portfolio') }}">
+                    <a class="nav-link" href="{{ $lang === 'en' ? route('show.en', 'portfolio') : route('show.id', 'portofolio') }}">
                         {{ __('general.portfolio') }}
                     </a>
                 </li>

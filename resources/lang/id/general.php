@@ -34,7 +34,7 @@ return [
     'logo_design' => 'Desain Logo',
     'banner_design' => 'Desain Banner',
     'brochure_design' => 'Desain Brosur',
-    'instagram_feed_design' => 'Desain Feed Instagram',
+    'instagram_feed_design' => 'Desain Feed IG',
     'envelope_design' => 'Desain Amplop',
     'tshirt_design' => 'Desain Kaos',
     'packaging_design' => 'Desain Kemasan',
